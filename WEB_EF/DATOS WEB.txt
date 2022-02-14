@@ -1,0 +1,16 @@
+:::::::DATOS WEB ETEL FREY:
+
+Delegación de dominio:
+Servidor de nombres primario: ns7.sitiopersonal.com
+IP: 107.161.23.84
+Servidor de nombres secundario: ns8.sitiopersonal.com
+IP: 107.161.19.94
+
+URL con dominio: etelfreyarquitecta.com.ar/cpanel
+Nombre de usuario: etelfreyar
+Contraseña: vej2*Lal1#
+
+Conexión por FTP:
+ftp.etelfreyarquitecta.com.ar
+Nombre de usuario: etelfreyar
+Contraseña: vej2*Lal1#

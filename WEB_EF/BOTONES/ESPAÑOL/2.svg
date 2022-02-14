@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.7581mm" height="5.2976mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 71 39"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="674" font-variant="normal" style="fill-rule:nonzero" font-weight="600">
+	<font-face 
+		font-family="Museo 700">
+		<font-face-src>
+			<font-face-name name="Museo-700"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="C" horiz-adv-x="708" d="M29.9965 360.998c0,-210.003 148.001,-372.996 365.002,-372.996 183,0 285.999,121.995 285.999,121.995l-68.999 94.0076c0,0 -80.9976,-94.0076 -215.005,-94.0076 -128.992,0 -230.994,112.006 -230.994,251.001 0,148.001 100.007,239.002 227.004,239.002 62.0021,0 147.004,-23.9972 147.004,-75.9958l0 -40 118.989 0 0 79.0024c0,120.998 -177.998,158.989 -268.999,158.989 -205.999,0 -360,-155.996 -360,-360.998z"/>
+   <glyph unicode="V" horiz-adv-x="684" d="M273.003 0l137.998 0 211.999 577c5.99931,17.0003 13.9938,22.0021 30.9941,22.0021l19.0094 0 0 110.994 -84.0042 0c-50.0035,0 -67.0038,-12.9962 -82.9927,-57.9979l-136.003 -395.996c-14.0076,-40 -27.0038,-103.997 -27.0038,-103.997l-1.99515 0c0,0 -13.01,63.9972 -27.0038,103.997l-136.003 395.996c-16.0028,45.0017 -34.0007,57.9979 -84.0042,57.9979l-82.9927 0 0 -110.994 17.9979 0c17.0003,0 24.9948,-5.00173 31.008,-22.0021l212.996 -577z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Museo 700";font-variant:normal;font-weight:600;src:url("#FontID0") format(svg)}
+    .fil0 {fill:black}
+    .fnt0 {font-weight:600;font-size:52.4558px;font-family:'Museo 700'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="-2" y="38"  class="fil0 fnt0">CV</text>
+ </g>
+</svg>

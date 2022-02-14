@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="12.2842mm" height="5.2976mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 88 38"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="674" font-variant="normal" style="fill-rule:nonzero" font-weight="600">
+	<font-face 
+		font-family="Museo 700">
+		<font-face-src>
+			<font-face-name name="Museo-700"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="O" horiz-adv-x="794" d="M29.9965 360c0,-209.006 158.005,-371.999 366.997,-371.999 209.006,0 367.011,162.993 367.011,371.999 0,203.007 -158.005,361.995 -367.011,361.995 -208.992,0 -366.997,-158.989 -366.997,-361.995zm136.003 0c0,136.003 103,240 230.994,240 128.008,0 231.008,-103.997 231.008,-240 0,-142.002 -103,-250.003 -231.008,-250.003 -127.994,0 -230.994,108.001 -230.994,250.003z"/>
+   <glyph unicode="I" horiz-adv-x="342" d="M38.0048 0l265.992 0 0 110.994 -70.9941 0 0 488.008 70.9941 0 0 110.994 -265.992 0 0 -110.994 70.9941 0 0 -488.008 -70.9941 0 0 -110.994z"/>
+   <glyph unicode="B" horiz-adv-x="628" d="M97.9979 68.0014c0,-47.9945 21.0045,-68.0014 68.0014,-68.0014l177 0c131.999,0 245.002,63.9972 245.002,205.999 0,72.0055 -37.0073,143.997 -114.001,166.997l0 2.00901c42.9927,21.9882 85.9993,72.9893 85.9993,151.992 0,117.007 -91.9986,183 -219.993,183l-307.004 0 0 -110.994 64.9948 0 0 -531.001zm131.001 352.006l0 178.995 109.997 0c57.9979,0 88.0083,-37.0073 88.0083,-88.0083 0,-50.9872 -31.008,-90.9872 -85.9993,-90.9872l-112.006 0zm0 -287.011l0 183 124.004 0c62.9997,0 99.9931,-42.9927 99.9931,-102.002 0,-59.9931 -35.9958,-103 -99.9931,-103l-102.002 0c-14.0076,0 -22.0021,8.00831 -22.0021,22.0021z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Museo 700";font-variant:normal;font-weight:600;src:url("#FontID0") format(svg)}
+    .fil0 {fill:black}
+    .fnt0 {font-weight:600;font-size:51.4156px;font-family:'Museo 700'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="-2" y="37"  class="fil0 fnt0">BIO</text>
+ </g>
+</svg>

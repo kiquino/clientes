@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=STIX+Two+Math:regular);
+:root {
+  --primary-color: #00AFEF;
+  --secondary-color: #333333;
+  --feature-1: #091e61;
+  --feature-2: #0554f2;
+  --feature-3: #044bd9;
+}
+
+body {
+  min-width: 300px !important;
+}
+
+.success {
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: #28a745;
+  color: white !important;
+  font-weight: bold;
+}
+
+.fail {
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: red;
+  color: white !important;
+  font-weight: bold;
+}
+
+#header-proyeccion {
+  font-size: 3rem !important;
+}
+
+@media screen and (max-width: 1100px) {
+  .resize-email {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #header-proyeccion {
+    font-size: 2rem !important;
+  }
+  #header-contact .display-1 {
+    font-size: 3rem;
+  }
+}
+
+.quotes {
+  font-family: 'STIX Two Math', serif !important;
+  font-size: 12rem;
+}
+
+.container-fluid {
+  padding: 0 0 !important;
+}
+
+.bg-banner-1 {
+  background-image: url(WEB_EF/BANNERS/PC/ESPAÑOL/1N.png);
+  background-size: cover;
+}
+
+.nav-mobile {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  width: 100% !important;
+}
+
+.text-quotes {
+  min-width: 23rem;
+}
+
+.text-quotes p {
+  font-size: 4rem !important;
+}
+
+.text-quotes p .big-text {
+  font-size: 7rem !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .text-quotes p {
+    font-size: 3rem !important;
+  }
+  .text-quotes p .big-text {
+    font-size: 5rem !important;
+  }
+}
+
+.color-1 {
+  background-color: var(--primary-color) !important;
+}
+
+.vr-custom {
+  max-width: 3rem !important;
+}
+
+.color-2 {
+  background-color: var(--secondary-color) !important;
+}
+
+.tc-1 {
+  color: var(--primary-color);
+}
+
+.tc-2 {
+  color: var(--secondary-color);
+}
+
+.feature-color-1 {
+  background-color: var(--feature-1);
+}
+
+.feature-color-2 {
+  background-color: var(--feature-2);
+}
+
+.feature-color-3 {
+  background-color: var(--feature-3);
+}
+
+section {
+  min-height: 50vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rounded {
+  border-radius: 15px !important;
+}
+
+.cv-flotante {
+  position: absolute;
+  right: 10%;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+@font-face {
+  font-family: 'museo';
+  src: url(font/Fonts/MuseoSans_500.otf);
+}
+
+@font-face {
+  font-family: 'museotitle';
+  src: url(font/Fonts/Museo300-Regular.otf);
+}
+
+.text-title {
+  font-family: 'museotitle' !important;
+}
+
+.text-banner {
+  position: absolute;
+  left: 15%;
+  height: 100%;
+  top: 30%;
+}
+
+.font-banner {
+  font-size: 7rem;
+  line-height: 5rem;
+}
+
+.font-banner-2 {
+  font-size: 7rem;
+  line-height: 5rem;
+}
+
+@media screen and (max-width: 1750px) {
+  .font-banner-2 {
+    font-size: 6rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .font-banner-2 {
+    font-size: 5rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .font-banner-2 {
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .font-banner-2 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .font-banner {
+    font-size: 4rem;
+    line-height: 3rem;
+  }
+}
+
+.text-banner-2 {
+  position: absolute;
+  left: 0%;
+  height: 100%;
+  top: 30%;
+}
+
+.icon-banner-pos {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.card {
+  width: 18rem !important;
+  height: 18rem !important;
+  border-radius: 0 !important;
+}
+
+.card .card-body img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.card .card-body .card-text .text-title {
+  font-size: 2.5rem !important;
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    min-width: 100% !important;
+    min-height: 18rem !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .card .card-body .display-3 {
+    font-size: 7rem;
+  }
+  .card .card-body .card-text .text-title {
+    font-size: 3.5rem !important;
+    line-height: 2rem !important;
+  }
+}
+
+.text-museo {
+  font-family: 'museo' !important;
+}
+
+.frase {
+  min-width: 40rem;
+}
+
+.navlist ul li a {
+  font-weight: 600;
+  font-size: large;
+  color: var(--secondary-color);
+}
+/*# sourceMappingURL=styles.css.map */

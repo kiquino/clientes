@@ -1,0 +1,23 @@
+::DELEGACION PNEUMATIC NORTE:
+
+
+Dominio: pneumaticnorte.com.ar
+
+FTP: ftp.pneumaticnorte.com.ar
+Nombre de usuario: pneumaticnorteco
+Contraseña: ba9d6k7b
+
+Delegación de dominio:
+Servidor de nombres primario: ns7.sitiopersonal.com
+IP: 72.29.64.158
+Servidor de nombres secundario: ns8.sitiopersonal.com
+IP: 72.29.64.159
+
+Acceso a cPanel
+URL con dominio: pneumaticnorte.com.ar/cpanel
+URL sin dominio: 72.29.64.157:2082
+Nombre de usuario: pneumaticnorteco
+Contraseña: ba9d6k7b
+
+Acceso a Webmail
+URL con dominio: pneumaticnorte.com.ar/webmail

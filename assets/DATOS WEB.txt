@@ -1,0 +1,20 @@
+:: DATOS PNEUMATIC WEB ::
+
+Dominio: www.pneumaticnorte.com.ar
+Nombre de usuario: pneumaticnorteco
+Contraseña: ba9d6k7b
+
+Acceso a cPanel y Webmail:
+cPanel
+URL: www.pneumaticnorte.com.ar/cpanel
+Nombre de usuario: pneumaticnorteco
+Contraseña: ba9d6k7b
+
+Webmail
+URL: www.pneumaticnorte.com.ar/webmail
+
+Conexión por FTP:
+Dirección con dominio: ftp.pneumaticnorte.com.ar
+Nombre de usuario: pneumaticnorteco
+Contraseña: ba9d6k7b
+

@@ -1,7 +1,3 @@
-# clientes
-Lista de trabajos realizados y guardados.
+# Flash mobile
+Cliente con posibles cambios futuros
 
-## Lista
--Novoflor
--Julieta Nahum
--Ecorad

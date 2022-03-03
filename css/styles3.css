@@ -1,0 +1,1477 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+}
+
+html {
+    overflow-x: inherit;
+    scroll-behavior: smooth;
+}
+
+.pre-header {
+    width: 100%;
+    height: auto;
+    min-width: 0px;
+    background: #03A65A;
+}
+
+.preheader-contenido {
+    justify-content: space-evenly;
+    text-align: center;
+    flex-basis: auto;
+    width: inherit;
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+.consul-online {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 4px 7px;
+    padding: 1px 10px;
+    border: 1px solid white;
+}
+
+.consul-online a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.consul-online i {
+    margin: auto 4px;
+}
+
+.upload-files {
+    display: none;
+}
+
+.login {
+    padding: 1em;
+}
+
+.login i {
+    color: #fff;
+}
+
+.login a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.pre-header-social {
+    display: inline-flex;
+    padding: 1em;
+}
+
+.pre-header-social i {
+    color: #fff;
+    height: 20px;
+    padding: 0px 5px;
+}
+
+.color-fondo-1 {
+    background-color: #03A65A;
+}
+
+.color-fondo-2 {
+    background-color: #02733E;
+}
+
+.color-fondo-3 {
+    background-color: rgb(74, 164, 111)
+}
+
+.color-fondo-5 {
+    background-color: #54D17B;
+}
+
+.color-fondo-4 {
+    background-color: #03A64A;
+}
+
+.mapa-sitio-header {
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.mapa-sitio-header p {
+    margin: 0;
+}
+
+.mapa-sitio-header a {
+    margin: 0px 3px;
+    color: #000000;
+}
+
+.selected {
+    color: #02733E !important;
+}
+
+.color-texto-blanco {
+    color: #fff;
+}
+
+.color-texto-verde {
+    color: #03A65A;
+}
+
+.telefono-header {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    color: #fff;
+}
+
+nav {
+    width: 100%;
+    background: #fff;
+    display: block;
+    margin-bottom: 1%;
+}
+
+.contenedor-header {
+    padding: 1% 0%;
+    justify-content: space-around;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.contenedor-header img {
+    height: 9em;
+    width: auto;
+    padding: 1% 0%;
+}
+
+.contenedor-header .datos-header {
+    display: block;
+    width: auto;
+}
+
+.logo-2 {
+    text-align: center;
+    display: none;
+    width: -webkit-fill-available;
+    max-height: 5em;
+}
+
+.contenedor-header .datos-header .cont-datos-header {
+    margin: 0px 0px;
+    display: grid;
+    text-align: left;
+    width: 200px;
+}
+
+.cont-datos-header strong {
+    padding-top: 5px;
+}
+
+.horarios-datos {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #02733E;
+    border-bottom: 1px solid #02733E;
+}
+
+.horarios-datos p {
+    margin: 2px;
+}
+
+.icon {
+    position: relative;
+    margin: 0 auto;
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    background: #02733E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.no-padding-top {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.tarjetas-info-main i {
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: x-large;
+    font-weight: normal;
+    color: #fff;
+}
+
+.toggle {
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 20px;
+    background: rgb(255, 255, 255);
+    text-align: right;
+    box-sizing: border-box;
+    color: rgb(7, 7, 7);
+    font-size: 30px;
+    display: none;
+}
+
+.opacidad {
+    opacity: 0.5;
+}
+
+ul {
+    margin: auto auto;
+    padding: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 0px;
+}
+
+ul li a {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+
+.dropdwn-content {
+    display: none;
+    height: 0px;
+    left: -50%;
+    top: 100%;
+    position: absolute;
+    transition: R 1s;
+    z-index: 2;
+    background-color: rgb(74, 164, 111);
+    ;
+}
+
+.drop {
+    position: relative;
+    top: 0;
+}
+
+.dropdwn-content li {
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-transform: none;
+    letter-spacing: inherit;
+}
+
+.dropdwn-content li:hover a {
+    border: 1px solid black;
+}
+
+.drop:hover .dropdwn-content {
+    display: block;
+    height: auto;
+}
+
+a span {
+    position: absolute;
+    display: block;
+    font-size: 2px;
+    background: black;
+    transition: transform ease-in-out 0.2s;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition-delay: 0s;
+}
+
+a:hover span:nth-child(1) {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+a span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition-delay: 0s;
+}
+
+a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+a span:nth-child(4) {
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition-delay: 0s;
+}
+
+a:hover span:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition-delay: 0s;
+}
+
+a:hover span:nth-child(3) {
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+.contenedor {
+    padding: 0% 10% 12%;
+    display: block;
+    justify-content: center;
+    position: relative;
+}
+
+.contenedor .imagen-principal {
+    margin: auto;
+    background-image: url(../imgs/frente-eco.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.contenedor-institucion .imagen-principal {
+    margin: auto;
+    background-image: url(../imgs/frente-eco.jpg);
+    height: 60vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+}
+
+.texto-over-ip {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+.contenedor-tarjetas-main {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0%;
+}
+
+.contenedor-tarjetas-main :nth-child(4) p {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.repassword {
+    text-align: left !important;
+    color: #000000;
+    text-decoration: none;
+    transition: text-decoration 1s;
+}
+
+.repassword:hover {
+    text-decoration: underline;
+}
+
+.contenedor-tarjetas-main .tarjetas-info-main {
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 190px;
+    overflow: hidden;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    /*
+    transform: translateX(20px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;*/
+}
+
+.contenedor-tarjetas-main .tarjetas-info-main.aparece {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.salir {
+    border: none !important;
+    background: rgba(0, 0, 0, 0.281) !important;
+    margin: 3px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.tarjetas-info-main a {
+    text-decoration: none;
+}
+
+.tarjetas-info-main a:hover {
+    text-decoration: underline;
+}
+
+.tarjetas-info-main p {
+    color: #fff;
+}
+
+.contenedor-secundario {
+    width: 100%;
+    margin: 0 25%;
+    justify-content: center;
+    text-align: -webkit-center;
+}
+
+.text-wrap {
+    float: left;
+    margin: auto;
+}
+
+.text-wrap p {
+    float: left;
+    margin: 15px 30px;
+}
+
+.imagen-sede {
+    width: 300px;
+    height: 300px;
+    background: url(../imgs/frente-eco.jpg);
+    border-radius: 50%;
+    margin-bottom: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    /* transform: translateX(-20px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;*/
+}
+
+.imagen-sede.aparece {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.bloque-texto-sede {
+    margin-left: 25%;
+    width: 50%;
+    margin-bottom: 6%;
+}
+
+.bloque-texto-sede p {
+    margin: 15px 30px;
+    position: relative;
+    /* transform: translateX(20px);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;*/
+}
+
+.bloque-texto-sede p.aparece-izq {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.nosotros-bloque {
+    text-align: center;
+    margin: inherit;
+    margin-top: 2em;
+    margin-bottom: 10px;
+}
+
+.mapa-wide {
+    display: block;
+    justify-content: center;
+    margin: 0% 25%;
+}
+
+.contacto {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    padding: 5% 0%;
+    padding-bottom: 10%;
+    padding-left: 18%;
+    width: 80%;
+    justify-content: center;
+}
+
+.contacto form {
+    display: grid;
+    width: 40%;
+}
+
+.contact-submit-btn {
+    background-color: #03A65A;
+    max-width: 100px;
+    min-width: 100px;
+    height: 50px;
+    border: none;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: inherit;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nombre-contenedor {
+    display: grid;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: inherit;
+}
+
+.form-nom-ap {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
+
+form .form-nom-ap label {
+    font-weight: bold;
+}
+
+form .form-nom-ap input {
+    border-radius: 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: rgb(66, 66, 66) 1px solid;
+    height: 20px;
+    width: auto;
+    min-width: 14em;
+}
+
+form #nombre-form {
+    /*width: 150px;*/
+    flex-grow: 1;
+}
+
+.mas-datos {
+    width: 250px;
+    padding: 0% 10%;
+}
+
+.mas-datos-redes {
+    display: inline-flex;
+}
+
+.color-fondo-6 {
+    background-color: #03A65A;
+}
+
+.redes-preheader {
+    align-items: center;
+    display: inline-flex;
+    margin-right: 5px;
+    font-size: large;
+}
+
+.redes-masDatos i {
+    color: #03a64a;
+    height: 40px;
+    padding: 0px 5px;
+    font-size: x-large;
+}
+
+#consult-id {
+    padding-top: 25px;
+    font-weight: bold;
+    margin-left: inherit;
+}
+
+#consult-inp-id {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    height: 80px;
+    width: auto;
+    margin-left: inherit;
+}
+
+#consult-opc {
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    margin-left: inherit;
+}
+
+#consult-opc option {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contenedor-footer {
+    background: #02733E;
+    width: 100%;
+}
+
+.contenedor-servicios {
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.banner-contenedor {
+    width: 100%;
+    display: inline-flex;
+    text-align: left;
+    background: linear-gradient(56deg, rgba(254, 254, 254, 0.05) 0%, rgba(254, 254, 254, 0.05) 69%, rgba(160, 160, 160, 0.05) 69%, rgba(160, 160, 160, 0.05) 100%), linear-gradient(194deg, rgba(102, 102, 102, 0.02) 0%, rgba(102, 102, 102, 0.02) 60%, rgba(67, 67, 67, 0.02) 60%, rgba(67, 67, 67, 0.02) 100%), linear-gradient(76deg, rgba(169, 169, 169, 0.06) 0%, rgba(169, 169, 169, 0.06) 89%, rgba(189, 189, 189, 0.06) 89%, rgba(189, 189, 189, 0.06) 100%), linear-gradient(326deg, rgba(213, 213, 213, 0.04) 0%, rgba(213, 213, 213, 0.04) 45%, rgba(66, 66, 66, 0.04) 45%, rgba(66, 66, 66, 0.04) 100%), linear-gradient(183deg, rgba(223, 223, 223, 0.01) 0%, rgba(223, 223, 223, 0.01) 82%, rgba(28, 28, 28, 0.01) 82%, rgba(28, 28, 28, 0.01) 100%), linear-gradient(3deg, rgba(20, 20, 20, 0.06) 0%, rgba(20, 20, 20, 0.06) 62%, rgba(136, 136, 136, 0.06) 62%, rgba(136, 136, 136, 0.06) 100%), linear-gradient(200deg, rgba(206, 206, 206, 0.09) 0%, rgba(206, 206, 206, 0.09) 58%, rgba(6, 6, 6, 0.09) 58%, rgba(6, 6, 6, 0.09) 100%), linear-gradient(304deg, rgba(162, 162, 162, 0.07) 0%, rgba(162, 162, 162, 0.07) 27%, rgba(24, 24, 24, 0.07) 27%, rgba(24, 24, 24, 0.07) 100%), linear-gradient(186deg, rgba(166, 166, 166, 0.04) 0%, rgba(166, 166, 166, 0.04) 5%, rgba(210, 210, 210, 0.04) 5%, rgba(210, 210, 210, 0.04) 100%), linear-gradient(90deg, #03A65A, rgb(32, 207, 121), rgb(78, 196, 128));
+    margin: 0% 0% 1%;
+}
+
+.nombre-banner {
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: #fff;
+    margin-left: 10%;
+}
+
+.contenedor-horario-fotolocal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.foto-servicio {
+    background-image: url(../imgs/servicios/servicios.png);
+    width: 500px;
+    height: 370px;
+    background-size: cover;
+    background-color: #02733E;
+}
+
+.horarios-servicio {
+    padding-left: 2%;
+}
+
+.contenedor-tarjetas-servicio {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.tarj-servicios {
+    position: relative;
+    justify-content: center;
+    display: block;
+    width: 270px;
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    /*opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.3s ease-in-out;*/
+}
+
+.tarj-servicios.aparece {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.tarj-servicios p {
+    font-size: 14px;
+    margin: 0% 10%;
+    display: inherit;
+}
+
+.tarj-servicios h3 {
+    margin-top: 10%;
+}
+
+.tarj-servicios a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.pic-indiv-serv {
+    width: 100%;
+    height: 45%;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.foto-servicio-1 {
+    background-image: url(../imgs/servicios/tomografo.png);
+}
+
+.foto-servicio-2 {
+    background-image: url(../imgs/servicios/mamografo.png);
+}
+
+.foto-servicio-3 {
+    background-image: url(../imgs/servicios/ortopantomografo.png);
+}
+
+.foto-servicio-4 {
+    background-image: url(../imgs/servicios/resonador.png);
+}
+
+.preparativos-btn {
+    border: 1px solid #1C6EA4;
+    padding: 5px;
+    margin: 2% 25%;
+}
+
+.preparativos-btn.pointer {
+    cursor: pointer;
+}
+
+.mas-info-btn {
+    padding: 5px;
+    margin: 2% 22%;
+    background-color: #02733E;
+}
+
+.mas-info-btn p {
+    color: #fff;
+}
+
+.contenedor-servicios-deep {
+    display: block;
+}
+
+.medic-horarios {
+    display: block;
+}
+
+.medic-tarjeta-horarios {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: linear-gradient(75deg, rgba(215, 215, 215, 0.06) 0%, rgba(215, 215, 215, 0.06) 50%, rgba(67, 67, 67, 0.06) 50%, rgba(67, 67, 67, 0.06) 100%), linear-gradient(123deg, rgba(236, 236, 236, 0.1) 0%, rgba(236, 236, 236, 0.1) 50%, rgba(116, 116, 116, 0.1) 50%, rgba(116, 116, 116, 0.1) 100%), linear-gradient(152deg, rgba(136, 136, 136, 0.06) 0%, rgba(136, 136, 136, 0.06) 50%, rgba(145, 145, 145, 0.06) 50%, rgba(145, 145, 145, 0.06) 100%), linear-gradient(278deg, rgba(9, 9, 9, 0.06) 0%, rgba(9, 9, 9, 0.06) 50%, rgba(37, 37, 37, 0.06) 50%, rgba(37, 37, 37, 0.06) 100%), linear-gradient(353deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(167, 167, 167, 0.05) 50%, rgba(167, 167, 167, 0.05) 100%), linear-gradient(319deg, rgba(228, 228, 228, 0.06) 0%, rgba(228, 228, 228, 0.06) 50%, rgba(14, 14, 14, 0.06) 50%, rgba(14, 14, 14, 0.06) 100%), linear-gradient(3deg, rgba(145, 145, 145, 0.07) 0%, rgba(145, 145, 145, 0.07) 50%, rgba(216, 216, 216, 0.07) 50%, rgba(216, 216, 216, 0.07) 100%), linear-gradient(161deg, rgba(211, 211, 211, 0.02) 0%, rgba(211, 211, 211, 0.02) 50%, rgba(194, 194, 194, 0.02) 50%, rgba(194, 194, 194, 0.02) 100%), linear-gradient(307deg, rgba(200, 200, 200, 0.08) 0%, rgba(200, 200, 200, 0.08) 50%, rgba(117, 117, 117, 0.08) 50%, rgba(117, 117, 117, 0.08) 100%), linear-gradient(90deg, rgb(32, 207, 121), rgb(78, 196, 128), #03A65A);
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+}
+
+.medic-tarjeta-horarios i {
+    margin-bottom: 10px;
+}
+
+.strong-text strong {
+    margin-left: 0px;
+}
+
+.nombre-titulo {
+    padding-bottom: 5px;
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.nombre-titulo i {
+    font-size: 19px;
+}
+
+.imagen-serv-r {
+    width: 500px;
+    height: 500px;
+    background: url(../imgs/servicios/resonador.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen-serv-m {
+    width: 500px;
+    height: 500px;
+    background: url(../imgs/servicios/mamografo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen-serv-o {
+    width: 500px;
+    height: 500px;
+    background: url(../imgs/servicios/ortopantomografo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imagen-serv-to {
+    width: 500px;
+    height: 500px;
+    background: url(../imgs/servicios/tomografo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#más-contacto-serv {
+    display: inherit;
+}
+
+.pedir-turno {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.btn-turno {
+    padding: 2px 15px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #03A65A;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+    height: fit-content;
+}
+
+.btn-turno h4 {
+    margin: 0 0;
+}
+
+.preparativos {
+    margin-left: 25%;
+    width: 50%;
+    justify-content: center;
+}
+
+.item-preparacion {
+    display: inline-flex;
+    text-align: left;
+    margin-right: 10%;
+}
+
+.item-preparacion .dur {
+    padding-left: 5px;
+}
+
+.tarjeta-horarios-info-linea {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.tarjeta-horarios-info-linea p {
+    border: inherit;
+    margin: 1px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.turno-tel {
+    text-align: center
+}
+
+.turno-tel i {
+    background-color: #03A65A;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.success-align {
+    text-align: center;
+    width: 50% !important;
+}
+
+.turno-tel p {
+    font-size: x-large;
+    margin: 0;
+}
+
+.contenedor-general-ingreso {
+    border-radius: 25px;
+    margin: 2% auto;
+    padding: 2%;
+    width: 35%;
+    background-color: rgb(92, 202, 140);
+}
+
+.contenedor-ingreso {
+    justify-content: center;
+    text-align: center;
+}
+
+.ingreso-block {
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.cabecera-ingreso {
+    margin-left: 25%;
+}
+
+.cabecera-ingreso img {
+    height: 9em;
+    width: auto;
+}
+
+.contenedor-ingreso form {
+    width: 100%;
+    display: grid;
+}
+
+.contenedor-ingreso h2 {
+    color: rgb(1, 77, 41);
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+#registro-menuingreso {
+    text-decoration: underline;
+}
+
+.contenedor-ingreso form input {
+    margin: 15px 0px;
+    width: 70%;
+    justify-self: center;
+    border-radius: 25px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.contenedor-ingreso form select {
+    margin: 15px 0px;
+    width: 70%;
+    justify-self: center;
+    border-radius: 25px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.contenedor-ingreso form a {
+    text-decoration: none;
+    color: black;
+    margin-top: 3%;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.contenedor-ingreso form button {
+    width: auto;
+    margin-top: 5%;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    background-color: #02733E;
+    color: white;
+    border-color: #02733E;
+    border-radius: 10px;
+    justify-self: center;
+}
+
+.contenedor-general-sesion {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgb(92, 202, 140);
+}
+
+.contenedor-sesion {
+    text-align: left;
+    display: block;
+    margin: 10%;
+    padding-top: 5%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.contenedor-institucion {
+    display: block;
+    margin: 0% 20%;
+    justify-content: center;
+}
+
+.contenedor-institucion h2 {
+    color: #02733E;
+}
+
+.contenedor-institucion p {
+    text-align: justify;
+}
+
+.hyperlink-mas {
+    float: right;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: right;
+    color: #02733E;
+    margin-right: 0%;
+}
+
+.domi-reg {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.domi-reg #domicilio {
+    width: 40%;
+}
+
+.domi-reg #puerta {
+    width: 30%;
+}
+
+.contenedor-construcs {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 25vh;
+    flex-direction: column;
+}
+
+.text-construct {
+    font-size: large;
+    font-weight: 100;
+    color: #02733E;
+}
+
+.title-construccion {
+    padding: 0px 20px;
+    border: 2px solid #02733E;
+    color: #02733E;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagen-construct {
+    color: #02733E;
+    font-size: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagen-construct img {
+    width: 200px;
+    height: auto;
+}
+
+.nota-turno {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-color: #54D17B;
+    border-radius: 1%;
+    padding: 0px 20px;
+}
+
+.skinny {
+    color: #02733E;
+    font-size: large;
+    font-weight: 300;
+}
+
+.small {
+    color: #02733E;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.isVisible {
+    display: flex;
+}
+
+.NotVisible {
+    display: none;
+}
+
+.contenedor-medicos {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0% auto;
+}
+
+.contenido-medicos {
+    margin: 0% auto;
+}
+
+.lista-med {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 2% auto;
+}
+
+.especialidad form select {
+    width: 30%;
+    border-radius: 20px;
+}
+
+.especialidades-serv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0% auto;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.item-esp-serv {
+    text-align: center;
+    width: 45%;
+    height: 65px;
+    margin: 1%;
+    background-color: #54D17B;
+}
+
+.item-esp-serv p {
+    color: black;
+    font-weight: normal;
+}
+
+.contenedor-turnos {
+    width: 50%;
+    display: block;
+    margin: 25px auto;
+}
+
+.turnos-prof {
+    background-color: rgb(134, 197, 162);
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.turnos-prof:hover {
+    background-color: #54D17B;
+}
+
+.contenido-medicos {
+    padding: 0 18px;
+    background-color: rgb(134, 197, 162);
+    overflow-y: visible;
+    transition: max-height 0.2s ease-out;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: rgb(134, 197, 162);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+@media all and (max-width: 900px) {
+    html {
+        overflow-x: hidden;
+    }
+    .contenedor {
+        padding: 0% 5% 12%;
+    }
+    .contacto {
+        display: grid;
+        padding: 10% 0%;
+        padding-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .nombre-contenedor {
+        width: 50%;
+    }
+    .toggle {
+        background: #03A65A;
+        display: flex;
+        /*min-width: 600px;*/
+        width: 100%;
+        align-items: center;
+    }
+    .pre-header {
+        width: auto;
+        height: auto;
+        min-width: 0px;
+    }
+    .preheader-contenido {
+        justify-content: center;
+        text-align: center;
+        flex-basis: auto;
+        width: 100%;
+    }
+    .logo-2 {
+        height: auto;
+        width: 40%;
+        display: flex;
+    }
+    ul {
+        width: 100%;
+        display: none;
+    }
+    ul li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    ul li a {
+        font-size: 16px;
+    }
+    .active {
+        display: block;
+    }
+    nav {
+        min-width: 0px;
+        display: block;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .contenedor-header {
+        display: none;
+    }
+    .contenedor-tarjetas-main {
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .contenedor-tarjetas-main .tarjetas-info-main {
+        width: 50%;
+        height: 225px;
+    }
+    .contenedor-general-ingreso {
+        width: 90%;
+    }
+    .contenedor-ingreso h2 {
+        font-size: larger;
+    }
+    .contenedor .imagen-principal {
+        width: 100%;
+        height: 325px;
+    }
+    .contenedor-institucion .imagen-principal {
+        width: 100%;
+        height: 325px;
+    }
+    #más-contacto-serv {
+        display: none;
+    }
+    .nombre-banner {
+        font-weight: bolder;
+        font-size: 2em;
+        color: #fff;
+        margin-left: 10%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .dropdwn-content {
+        display: none !important;
+    }
+    .pre-header-social {
+        display: none;
+    }
+    .imagen-sede {
+        width: 100%;
+        background: url(../imgs/frente-eco.jpg);
+        border-radius: 0px;
+        margin-bottom: 5%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .bloque-texto-sede {
+        position: relative;
+        margin-left: 0%;
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    .bloque-texto-sede p {
+        margin: 15px 30px;
+        position: relative;
+        /*transform: translateX(20px);
+        opacity: 0;
+        transition: all 0.3s ease-in-out;*/
+    }
+    .bloque-texto-sede p.aparece-izq {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    .text-wrap p {
+        float: none;
+        margin: 15px 30px;
+    }
+    .nosotros-bloque {
+        text-align: center;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        margin: 0% 5%;
+    }
+    .contenedor-tarjetas-servicio {
+        margin: 6% 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tarj-servicios {
+        width: 100%;
+        height: 400px;
+        margin: 10px 0px;
+    }
+    .contacto form {
+        display: grid;
+        width: 100%;
+    }
+    .form-nom-ap {
+        display: block;
+        flex-wrap: nowrap;
+    }
+    .nombre-contenedor {
+        display: grid;
+        width: 100%;
+        justify-content: left;
+        margin-left: 5%;
+    }
+    .contacto {
+        display: block;
+        flex-wrap: nowrap;
+        padding: 5% 0%;
+        padding-left: 0%;
+        width: 100%;
+        justify-content: center;
+    }
+    #consult-inp-id {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 5px;
+        height: 80px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #consult-id {
+        padding-top: 25px;
+        font-weight: bold;
+        margin-left: 5%;
+    }
+    #consult-opc {
+        border-radius: 5px;
+        height: auto;
+        width: 50%;
+        margin-left: 5%;
+    }
+    .mapa-wide {
+        display: flex;
+        justify-content: center;
+        margin: inherit;
+    }
+    .color-fondo-3 {
+        background-color: #03A65A;
+    }
+    .contact-submit-btn {
+        margin-left: 5%;
+    }
+    .contenedor-general-sesion {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .cabecera-ingreso {
+        display: none;
+    }
+    .nombre-titulo {
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .medic-tarjeta-horarios {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        background: linear-gradient(75deg, rgba(215, 215, 215, 0.06) 0%, rgba(215, 215, 215, 0.06) 50%, rgba(67, 67, 67, 0.06) 50%, rgba(67, 67, 67, 0.06) 100%), linear-gradient(123deg, rgba(236, 236, 236, 0.1) 0%, rgba(236, 236, 236, 0.1) 50%, rgba(116, 116, 116, 0.1) 50%, rgba(116, 116, 116, 0.1) 100%), linear-gradient(152deg, rgba(136, 136, 136, 0.06) 0%, rgba(136, 136, 136, 0.06) 50%, rgba(145, 145, 145, 0.06) 50%, rgba(145, 145, 145, 0.06) 100%), linear-gradient(278deg, rgba(9, 9, 9, 0.06) 0%, rgba(9, 9, 9, 0.06) 50%, rgba(37, 37, 37, 0.06) 50%, rgba(37, 37, 37, 0.06) 100%), linear-gradient(353deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(167, 167, 167, 0.05) 50%, rgba(167, 167, 167, 0.05) 100%), linear-gradient(319deg, rgba(228, 228, 228, 0.06) 0%, rgba(228, 228, 228, 0.06) 50%, rgba(14, 14, 14, 0.06) 50%, rgba(14, 14, 14, 0.06) 100%), linear-gradient(3deg, rgba(145, 145, 145, 0.07) 0%, rgba(145, 145, 145, 0.07) 50%, rgba(216, 216, 216, 0.07) 50%, rgba(216, 216, 216, 0.07) 100%), linear-gradient(161deg, rgba(211, 211, 211, 0.02) 0%, rgba(211, 211, 211, 0.02) 50%, rgba(194, 194, 194, 0.02) 50%, rgba(194, 194, 194, 0.02) 100%), linear-gradient(307deg, rgba(200, 200, 200, 0.08) 0%, rgba(200, 200, 200, 0.08) 50%, rgba(117, 117, 117, 0.08) 50%, rgba(117, 117, 117, 0.08) 100%), linear-gradient(90deg, rgb(32, 207, 121), rgb(78, 196, 128), #03A65A);
+        border: 0px solid #000000;
+        -webkit-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 15px 26px -12px rgba(0, 0, 0, 0.5);
+        justify-content: space-between;
+        width: 90%;
+        height: auto;
+        margin: 15px;
+        padding: 15px;
+    }
+    .tarjeta-horarios-info-linea p {
+        border-right: 1px solid black;
+        margin: 1px;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+    /*
+                   .tarj-servicios p {
+                       display: none;
+                   }*/
+}
+
+@media all and (max-width: 600px) {
+    .toggle {
+        width: 100%;
+    }
+}

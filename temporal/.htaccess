@@ -1,0 +1,7 @@
+AddHandler x-httpd-php7-3 .php
+# AddHandler x-httpd-php7-1 .php
+# AddHandler x-httpd-php5-6 .php
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://ecorad.com.ar/$1 [R=301,L,QSA]
+</IfModule>

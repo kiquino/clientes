@@ -1,0 +1,190 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.contenedor-gral {
+  height: 100vh;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: #DEE0EF;
+}
+
+.contenedor-gral .contenedor-login {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  background-color: #f1f6fc;
+  border-radius: 0;
+  width: 40%;
+  height: 50%;
+  max-width: 600px;
+  min-width: 320px;
+  min-height: 280px;
+  -webkit-box-shadow: 20px 20px 60px rgba(120, 113, 153, 0.46), 15px 15px 20px rgba(120, 113, 153, 0.58), 3px 3px 5px #787199;
+          box-shadow: 20px 20px 60px rgba(120, 113, 153, 0.46), 15px 15px 20px rgba(120, 113, 153, 0.58), 3px 3px 5px #787199;
+}
+
+.contenedor-gral .contenedor-login .chl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background-color: #303030;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contenedor-gral .contenedor-login .chl .logo-h {
+  width: 120px;
+  height: 100%;
+  background-color: #202020;
+}
+
+.contenedor-gral .contenedor-login .chl .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-log {
+  margin: 4px;
+  padding: 4px;
+  border-bottom: 0px solid white;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-log h2 {
+  color: white;
+  font-size: larger;
+  font-weight: 200;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-log:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-reg {
+  margin: 4px;
+  padding: 4px;
+  border-bottom: 0px solid white;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-reg h2 {
+  color: white;
+  font-size: larger;
+  font-weight: 200;
+}
+
+.contenedor-gral .contenedor-login .chl .menu .bt-reg:hover {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+}
+
+.contenedor-gral .contenedor-login .texto-header {
+  text-align: center;
+  font-weight: 200;
+  font-size: larger;
+}
+
+.contenedor-gral .contenedor-login form {
+  display: -ms-grid;
+  display: grid;
+  height: 50%;
+  margin: 0;
+  place-items: center;
+}
+
+.contenedor-gral .contenedor-login form .container-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid rgba(41, 41, 41, 0.486);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3px;
+}
+
+.contenedor-gral .contenedor-login form .container-input label {
+  text-align: left;
+  font-size: larger;
+  -webkit-transition: 0.1s font-size;
+  transition: 0.1s font-size;
+}
+
+.contenedor-gral .contenedor-login form .container-input:hover label {
+  font-size: x-large;
+}
+
+.contenedor-gral .contenedor-login form .container-input input {
+  font-size: medium;
+  min-width: 250px;
+  outline: 0px;
+  float: right;
+  border: 0px solid white;
+  border-bottom: 0px solid black;
+}
+
+.contenedor-gral .contenedor-login form .container-input input:hover .container-input {
+  border-bottom: 2px solid black;
+}
+
+.contenedor-gral .contenedor-login form .boton {
+  width: 40%;
+  -webkit-box-shadow: 15px 15px 50px rgba(120, 113, 153, 0.46), 10px 10px 15px rgba(120, 113, 153, 0.58), 3px 3px 5px #787199;
+          box-shadow: 15px 15px 50px rgba(120, 113, 153, 0.46), 10px 10px 15px rgba(120, 113, 153, 0.58), 3px 3px 5px #787199;
+  border-radius: 100px;
+  margin: 4px;
+  background-color: #202020;
+  text-align: center;
+}
+
+.contenedor-gral .contenedor-login form .boton h3 {
+  font-size: larger;
+  font-weight: 200;
+  color: white;
+}
+
+.contenedor-gral .contenedor-login form .boton:hover {
+  cursor: pointer;
+  background-color: #111111;
+}
+
+.b-i {
+  border-bottom: 2px solid #0d36a0 !important;
+}
+/*# sourceMappingURL=style.css.map */

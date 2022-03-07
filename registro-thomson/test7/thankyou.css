@@ -1,0 +1,839 @@
+@font-face {
+  font-family: THOMSON-FONT-REGULAR;
+  src: url(assets/Knowledge2017-Bold.ttf);
+}
+
+@font-face {
+  font-family: THOMSON-medium;
+  src: url(assets/Knowledge2017-Medium.ttf);
+}
+
+@font-face {
+  font-family: THOMSON-light;
+  src: url(assets/Knowledge2017-Light.ttf);
+}
+
+@font-face {
+  font-family: THOMSON-regular;
+  src: url(assets/Knowledge2017-Regular.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f96400;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f96400;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #f96400;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+body {
+
+  background-image: url(assets/Fondo_Agenda.png);
+  background-size: cover;
+}
+.corte-mobile {
+  display: none;
+}
+
+.contenedor-banner {
+  height: 50vh;
+  background-image: url(assets/Footer_STD.png);
+  background-position: 0% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.contenedor-banner .text-banner {
+  display: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: none;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.contenedor-banner {
+    height: 66vh;
+    background-image: url(assets/Footer_STD.png);
+    background-position: 0% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.contenedor-icon-background {
+     background-color: transparent;
+}
+.contenedor-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  width: 60%;
+  margin: 0% auto;
+  padding: 5% 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-icon .title-icon {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor-icon .title-icon p {
+  font-size: xx-large;
+  color: #F96400;
+  font-family: THOMSON-regular;
+  font-weight: 400;
+}
+
+.contenedor-icon .title-icon .desc-title-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto auto;
+}
+
+.contenedor-icon .title-icon .desc-title-icon p {
+  text-align: center;
+  color: #404040;
+  font-size: 1.1em;
+  font-family: THOMSON-light;
+  margin-bottom: 0.5em;
+}
+
+.contenedor-icon .contenedor-it {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+
+.contenedor-icon .contenedor-it .icono-texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 2%;
+  height: 300px;
+  width: 250px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .icono {
+  background-image: url(assets/img/Iconos_1.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .icono2 {
+  background-image: url(assets/img/Iconos_2.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .icono3 {
+  background-image: url(assets/img/Iconos_3.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .icono4 {
+  background-image: url(assets/img/Iconos_4.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .icono5 {
+  background-image: url(assets/img/Iconos_5.png);
+  background-size: contain;
+  background-position: center;
+  min-height: 100px;
+  min-width: 100px;
+  background-repeat: no-repeat;
+  margin-bottom: 1em;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.contenedor-icon .contenedor-it .icono-texto .texto p {
+  text-align: center;
+  color: #404040;
+  font-size: 1.1em;
+  font-family: THOMSON-regular;
+  margin-bottom: 0.5em;
+}
+
+@media (max-width: 767px) {
+.contenedor-banner {
+    width: 100%;
+    background-image: url(assets/Footer_STD_mobile.png) !important;
+    height: 55vh !important;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 82% 99% !important;
+  }
+  .contenedor-banner .text-banner {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: none !important;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+  .contenedor-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    width: 95%;
+    margin: 0% auto;
+    padding: 5% 0%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenedor-icon .title-icon {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenedor-icon .title-icon p {
+    font-size: xx-large;
+    color: #F96400;
+    font-family: THOMSON-regular;
+    font-weight: 400;
+  }
+  .contenedor-icon .title-icon .desc-title-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 80%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto auto;
+  }
+  .contenedor-icon .title-icon .desc-title-icon p {
+    text-align: center;
+    color: #404040;
+    font-size: 1.1em;
+    font-family: THOMSON-light;
+    margin-bottom: 0.5em;
+  }
+  .contenedor-icon .contenedor-it {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+  }
+  .contenedor-icon .contenedor-it .icono-texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    padding: 2%;
+    height: 300px;
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .icono {
+    background-image: url(assets/img/Iconos_1.png);
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .icono2 {
+    background-image: url(assets/img/Iconos_2.png);
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .icono3 {
+    background-image: url(assets/img/Iconos_3.png);
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .icono4 {
+    background-image: url(assets/img/Iconos_4.png);
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .icono5 {
+    background-image: url(assets/img/Iconos_5.png);
+    background-size: contain;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-repeat: no-repeat;
+    margin-bottom: 1em;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .texto {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .contenedor-icon .contenedor-it .icono-texto .texto p {
+    text-align: center;
+    color: #404040;
+    font-size: 1.1em;
+    font-family: THOMSON-regular;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (max-width: 1450px) {
+.contenedor-banner {
+    height: 35vh !important;
+    background-image: url(assets/Footer_STD.png) !important;
+    background-position: 82% 30% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    position: relative !important;
+    }
+    .contenedor-banner .text-banner {
+        display: inherit !important;
+        position: absolute;
+        top: 0 !important;
+        left: 0 !important;
+        background-image: none !important;
+        background-position: center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        height: 100%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedor-banner {
+      width: 100%;
+      background-image: url(assets/img/Footer_STD_mobile.png);
+      height: 70vh;
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .contenedor-banner .text-banner {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: none !important;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+    }
+    .contenedor-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: column nowrap;
+              flex-flow: column nowrap;
+      width: 95%;
+      margin: 0% auto;
+      padding: 5% 0%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .contenedor-icon .title-icon {
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    .contenedor-icon .title-icon p {
+      font-size: xx-large;
+      color: #F96400;
+      font-family: THOMSON-regular;
+      font-weight: 400;
+    }
+    .contenedor-icon .title-icon .desc-title-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      width: 80%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin: auto auto;
+    }
+    .contenedor-icon .title-icon .desc-title-icon p {
+      text-align: center;
+      color: #404040;
+      font-size: 1.1em;
+      font-family: THOMSON-light;
+      margin-bottom: 0.5em;
+    }
+    .contenedor-icon .contenedor-it {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      width: 100%;
+      height: auto;
+    }
+    .contenedor-icon .contenedor-it .icono-texto {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+      padding: 2%;
+      height: 300px;
+      width: 100%;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: start;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .icono {
+      background-image: url(assets/img/Iconos_1.png);
+      background-size: contain;
+      background-position: center;
+      min-height: 100px;
+      min-width: 100px;
+      background-repeat: no-repeat;
+      margin-bottom: 1em;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .icono2 {
+      background-image: url(assets/img/Iconos_2.png);
+      background-size: contain;
+      background-position: center;
+      min-height: 100px;
+      min-width: 100px;
+      background-repeat: no-repeat;
+      margin-bottom: 1em;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .icono3 {
+      background-image: url(assets/img/Iconos_3.png);
+      background-size: contain;
+      background-position: center;
+      min-height: 100px;
+      min-width: 100px;
+      background-repeat: no-repeat;
+      margin-bottom: 1em;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .icono4 {
+      background-image: url(assets/img/Iconos_4.png);
+      background-size: contain;
+      background-position: center;
+      min-height: 100px;
+      min-width: 100px;
+      background-repeat: no-repeat;
+      margin-bottom: 1em;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .icono5 {
+      background-image: url(assets/img/Iconos_5.png);
+      background-size: contain;
+      background-position: center;
+      min-height: 100px;
+      min-width: 100px;
+      background-repeat: no-repeat;
+      margin-bottom: 1em;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .texto {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+    }
+    .contenedor-icon .contenedor-it .icono-texto .texto p {
+      text-align: center;
+      color: #404040;
+      font-size: 1.1em;
+      font-family: THOMSON-regular;
+      margin-bottom: 0.5em;
+    }
+  }
+
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .contenedor-banner {
+        height: 50vh !important;
+        background-image: url(assets/Banner_Imagen.png) !important;
+        background-position: 82% 30% !important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        position: relative !important;
+      }
+      .contenedor-banner .text-banner {
+        display: inherit !important;
+        position: absolute;
+        top: 0 !important;
+        left: 0 !important;
+        background-image: none !important;
+        background-position: center !important;
+        background-size: contain !important;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+      }
+      .contenedor-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        width: 95%;
+        margin: 0% auto;
+        padding: 5% 0%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+      .contenedor-icon .title-icon {
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+      }
+      .contenedor-icon .title-icon p {
+        font-size: xx-large;
+        color: #F96400;
+        font-family: THOMSON-regular;
+        font-weight: 400;
+      }
+      .contenedor-icon .title-icon .desc-title-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        width: 80%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: auto auto;
+      }
+      .contenedor-icon .title-icon .desc-title-icon p {
+        text-align: center;
+        color: #404040;
+        font-size: 1.1em;
+        font-family: THOMSON-light;
+        margin-bottom: 0.5em;
+      }
+      .contenedor-icon .contenedor-it {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row nowrap;
+                flex-flow: row nowrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        width: 100%;
+        height: auto;
+      }
+      .contenedor-icon .contenedor-it .icono-texto {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        padding: 2%;
+        height: 300px;
+        width: 100%;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: start;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .icono {
+        background-image: url(assets/img/Iconos_1.png);
+        background-size: contain;
+        background-position: center;
+        min-height: 100px;
+        min-width: 100px;
+        background-repeat: no-repeat;
+        margin-bottom: 1em;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .icono2 {
+        background-image: url(assets/img/Iconos_2.png);
+        background-size: contain;
+        background-position: center;
+        min-height: 100px;
+        min-width: 100px;
+        background-repeat: no-repeat;
+        margin-bottom: 1em;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .icono3 {
+        background-image: url(assets/img/Iconos_3.png);
+        background-size: contain;
+        background-position: center;
+        min-height: 100px;
+        min-width: 100px;
+        background-repeat: no-repeat;
+        margin-bottom: 1em;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .icono4 {
+        background-image: url(assets/img/Iconos_4.png);
+        background-size: contain;
+        background-position: center;
+        min-height: 100px;
+        min-width: 100px;
+        background-repeat: no-repeat;
+        margin-bottom: 1em;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .icono5 {
+        background-image: url(assets/img/Iconos_5.png);
+        background-size: contain;
+        background-position: center;
+        min-height: 100px;
+        min-width: 100px;
+        background-repeat: no-repeat;
+        margin-bottom: 1em;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .texto {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+      }
+      .contenedor-icon .contenedor-it .icono-texto .texto p {
+        text-align: center;
+        color: #404040;
+        font-size: 1.1em;
+        font-family: THOMSON-regular;
+        margin-bottom: 0.5em;
+      }
+}
+
+.btn-volver{
+  display: flex;
+  align-items: center;
+  height: 3em;
+  margin: 1em auto;
+  padding: 1em 1em;
+  font-family: THOMSON-regular;
+  font-size: 1.4em;
+  width: auto;
+  color: white;
+  text-align: center;
+  background-color:  #F96400;
+  border-radius:30px;
+
+}
+.btn-volver:hover{
+  background-color:  #be4c00;
+  cursor: pointer;
+
+}

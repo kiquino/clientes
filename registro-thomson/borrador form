@@ -1,0 +1,447 @@
+
+                    <div class="form-data-personal">
+                        <h3 >Información de contacto</h3>
+                        <div style="display: flex; flex-direction: row; width: 100%;" class="contenedor-form-row">
+                            <div id="formElement0" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                                <div class="field-wrapper">
+
+                                </div>
+
+                                <div class="individual field-wrapper flex-element">
+
+                                    <div class="_100 field-style">
+
+                                        <p class="field-p">
+
+                                            <label for="field0" class="label-position top ">Nombre
+          
+                        <span class="required" >*
+          
+                        </span>
+          
+                      </label>
+
+                                            <input id="field0" name="firstName" type="text" class="field-size-top-large" />
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                                <div class="field-wrapper">
+
+                                </div>
+
+                                <div class="individual field-wrapper">
+
+                                    <div class="_100 field-style">
+
+                                        <p class="field-p">
+
+                                            <label for="field1" class="label-position top ">Email
+          
+                        <span class="required" >*
+          
+                        </span>
+          
+                      </label>
+
+                                            <input id="field1" name="emailAddress" type="text" class="field-size-top-large" />
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                            <div class="field-wrapper">
+
+                            </div>
+
+                            <div class="individual field-wrapper">
+
+                                <div class="_100 field-style">
+
+                                    <p class="field-p">
+
+                                        <label for="field2" class="label-position top ">Teléfono
+          
+                        <span class="required" >*
+          
+                        </span>
+          
+                      </label>
+
+                                        <input id="field2" name="busPhone" type="text" class="field-size-top-large" />
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-data-profesional">
+                        <h3 style="position:absolute; top:5px; left:5px;">Información profesional</h3>
+
+
+                        <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                            <div class="field-wrapper">
+
+                            </div>
+
+                            <div class="individual field-wrapper">
+
+                                <div class="_100 field-style">
+
+                                    <p class="field-p">
+
+                                        <label for="field3" class="label-position top ">Estudio Jurídico
+          
+                      </label>
+
+                                        <input id="field3" name="aRCompany1" type="text" class="field-size-top-large" />
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="formElement4" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                            <div class="field-wrapper">
+
+                            </div>
+
+                            <div class="individual field-wrapper">
+
+                                <div class="_100 field-style">
+
+                                    <p class="field-p">
+
+                                        <label for="field4" class="label-position top ">Cantidad de Abogados
+          
+                        <span class="required" >*
+          
+                        </span>
+          
+                      </label>
+
+                                        <select id="field4" name="dropdownMenu" class="field-size-top-large select">
+          
+                        <option value="Independiente" >Independiente
+          
+                        </option>
+          
+                        <option value="2" >2
+          
+                        </option>
+          
+                        <option value="3 a 4" >3 a 4
+          
+                        </option>
+          
+                        <option value="5" >5
+          
+                        </option>
+          
+                        <option value="6 a 9" >6 a 9
+          
+                        </option>
+          
+                        <option value="Más de 10" >Más de 10
+          
+                        </option>
+          
+                      </select>
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-data-especialidad">
+                        <h3 style="position:absolute; top:5px; left:5px;">Selección de especialización</h3>
+                        <div id="formElement5" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                            <div class="field-wrapper">
+
+                            </div>
+
+                            <div class="individual field-wrapper">
+
+                                <div class="_100 field-style">
+
+                                    <p class="field-p" style="padding-top:2em;">
+
+                                        <label for="field5" class="label-position top " style="font-weight: bold; padding-bottom:1em;">Área de Especialidad
+          
+                      </label>
+
+                                        <span class="radio-option field-size-top-large">
+          
+                        <span class="list-order oneColumn" >
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox" name="especialidad[]" value="Administrativo" class="input"  />
+          
+                            <span class="inner" >Administrativo
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Civil" class="input"  />
+          
+                            <span class="inner" >Civil
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Comercial" class="input"  />
+          
+                            <span class="inner" >Comercial
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Constitucional" class="input"  />
+          
+                            <span class="inner" >Constitucional
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Laboral y Seguridad Social" class="input"  />
+          
+                            <span class="inner" >Laboral y Seguridad Social
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Internacional" class="input"  />
+          
+                            <span class="inner" >Internacional
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Notarial y Registral" class="input"  />
+          
+                            <span class="inner" >Notarial y Registral
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Penal" class="input"  />
+          
+                            <span class="inner" >Penal
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox" name="especialidad[]"value="Procesal" class="input"  />
+          
+                            <span class="inner" >Procesal
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox" name="especialidad[]"value="Tributario" class="input"  />
+          
+                            <span class="inner" >Tributario
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox"name="especialidad[]" value="Familia" class="input"  />
+          
+                            <span class="inner" >Familia
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        <span class="list-order oneColumn">
+          
+                          <label class="label" >
+          
+                            <input name="checkboxes" type="checkbox" value="Compliance" name="especialidad[]"class="input"  />
+          
+                            <span class="inner" >Compliance
+          
+                            </span>
+
+                                        </label>
+
+                                        </span>
+
+                                        </span>
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div id="formElement6" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+
+                        <div class="field-wrapper">
+
+                        </div>
+
+                        <div class="individual field-wrapper">
+
+                            <div class="_100 field-style">
+
+                                <p class="field-p">
+
+                                    <input id="field6" type="hidden" name="AR_ID" value="<eloqua type='emailfield' syntax='AR_ID1' />" />
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="formElement7" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+
+                        <div class="field-wrapper">
+
+                        </div>
+
+                        <div class="individual field-wrapper">
+
+                            <div class="_100 field-style">
+
+                                <p class="field-p">
+
+                                    <input id="field7" type="hidden" name="utm_source1" value="<eloqua type='emailfield' syntax='utm_source__copia1' />" />
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id="formElement8" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+
+                        <div class="field-wrapper">
+
+                        </div>
+
+                        <div class="individual field-wrapper">
+
+                            <div class="_100 field-style">
+
+                                <p class="field-p" style="display: flex;
+                                     justify-content: center;
+                                     padding-top: 25px;
+                                     padding-bottom: 25px;">
+
+                                    <input type="submit" value="Registrarme" class="submit-button" style="font-size: 100%; height: 24px; width: 180px" />
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>

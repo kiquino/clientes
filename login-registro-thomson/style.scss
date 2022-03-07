@@ -1,0 +1,161 @@
+
+$familia:'Roboto', sans-serif;
+*{
+    font-family: $familia;
+}
+body{
+    margin: 0;
+}
+.contenedor-gral{
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: #DEE0EF;
+   
+    .contenedor-login{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        background-color: #f1f6fc;
+        border-radius: 0;
+        width: 40%;
+        height: 50%;
+        max-width: 600px;
+        min-width: 320px;
+        min-height: 280px;
+        box-shadow: 
+        20px 20px 60px rgba(120, 113, 153, 0.46),
+        15px 15px 20px rgba(120, 113, 153, 0.58),
+        3px 3px 5px rgba(120, 113, 153, 1)
+        ;
+        
+        .chl{
+            display: flex;
+            width: 100%;
+            height: 15%;
+            background-color: rgb(48, 48, 48);
+            justify-content: space-between;
+        
+            .logo-h{
+                width:120px;
+                height: 100%;
+                background-color: rgb(32, 32, 32);
+            }
+            .menu{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                width: auto;
+                align-items: center;
+               
+                .bt-log{
+                    margin: 4px;
+                    padding: 4px;
+                   border-bottom: 0px solid white;
+                     h2{
+                    color:white;
+                    font-size: larger;
+                    font-weight: 200;
+                }
+                &:hover{
+                    cursor: pointer;
+                    border-bottom: 3px solid white;
+                }
+                }
+                .bt-reg{
+                    margin: 4px;
+                    padding: 4px;
+                    border-bottom: 0px solid white;
+                     h2{
+                    color:white;
+                    font-size: larger;
+                    font-weight: 200;
+                }
+                &:hover{
+                    cursor: pointer;
+                    border-bottom: 3px solid white;
+                }
+                }
+            }
+        }
+        
+        .texto-header{
+            text-align: center;
+            font-weight: 200;
+            font-size: larger;
+        }
+        form{
+           display: grid;
+           height: 50%;
+           margin: 0;
+           place-items: center;
+           
+            .container-input{
+                display: flex;
+                 flex-direction: row;
+                 flex-wrap: nowrap;
+                width: auto;
+                justify-content: space-between;
+                border-bottom: 1px solid rgba(41, 41, 41, 0.486);
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 3px;
+                label{
+                    text-align: left;
+                    font-size: larger;
+                    transition: 0.1s font-size;
+                }
+                &:hover label{
+                    font-size: x-large;
+                }
+                input{
+                    font-size: medium;
+                    min-width: 250px;
+                    outline: 0px;
+                    float: right;
+                    border: 0px solid white;
+                    border-bottom: 0px solid black;
+                    &:hover .container-input{
+                        
+                    border-bottom: 2px solid black;
+                    }
+                }
+                
+            }
+
+           .boton{
+               width: 40%;
+               box-shadow: 
+        15px 15px 50px rgba(120, 113, 153, 0.46),
+        10px 10px 15px rgba(120, 113, 153, 0.58),
+        3px 3px 5px rgba(120, 113, 153, 1)
+        ;
+        
+           border-radius: 100px;
+            margin: 4px;
+            background-color: rgb(32, 32, 32);
+            text-align: center;
+            h3{
+                font-size: larger;
+                font-weight: 200;
+                color: white;
+            }
+            &:hover{
+                cursor: pointer;
+                background-color: rgb(17, 17, 17);
+            }
+           }
+        }
+    }
+
+}
+.b-i{
+    border-bottom:2px solid #0d36a0 !important;
+}
+
+
+@media(max-width:800px){
+
+}

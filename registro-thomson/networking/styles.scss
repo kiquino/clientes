@@ -1,0 +1,300 @@
+@font-face {
+    font-family: regular-t;
+    src: url(Knowledge2017-Regular.ttf);
+}
+
+@font-face {
+    font-family: light-t;
+    src: url(Knowledge2017-Light.ttf);
+}
+
+@font-face {
+    font-family: bold-t;
+    src: url(Knowledge2017-Bold.ttf);
+}
+
+$colorThompson:#f96400;
+$box-shadow-card: 0 14px 28px rgba(0, 0, 0, 0.25),
+4px 4px 4px 0px rgba(0, 0, 0, 0.22);
+$dark-grey:rgb(64,
+    64,
+    64);
+$medium-grey:rgb(102,
+    102,
+    102);
+$light-grey: rgb(175,
+    175,
+    175);
+$mutated-grey: rgb(208,
+    208,
+    208);
+$TRLightPurple: rgb(110,
+    58,
+    183);
+
+a,
+p,
+li {
+    font-family: light-t;
+}
+
+h1,
+h2,
+h3 {
+    font-family: regular-t;
+}
+
+.title {
+    font-family: regular-t;
+}
+
+.searchbar {
+    background-color: $mutated-grey;
+    height: 2em;
+    width: 20em;
+    margin-right: auto;
+    border-radius: 30px;
+    display: flex;
+   
+    .icon-s{
+        background-image: url(iconfinder_-_Magnifier-Search-Zoom-_3844432.svg);
+        background-size: contain;
+        height: 2em;
+        width: 2em;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: $colorThompson;
+        
+    }
+
+    input {
+        margin-left: auto;
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 30px;
+        border: rgba(0, 0, 0, 0);
+        width: 18em;
+    }
+}
+
+.categorias {
+    background-color: $mutated-grey;
+    height: 2em;
+    width: 20em;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    select{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 30px;
+        width: 20em;
+        border:1px solid rgba(0, 0, 0, 0);
+    }
+}
+
+header {
+    width: 100%;
+    height: 5em;
+    background-color: $colorThompson;
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    nav {
+        ul {
+            li {
+                font-size: 1.4em;
+                padding: 0.5em 2em;
+                font-weight: 400;
+                color: white;
+            }
+        }
+    }
+
+    .logo {
+        background-color: white;
+        width: 10em;
+        height: 4em;
+        margin-left: 5em;
+    }
+
+    .logo-b {
+        background-color: white;
+        width: 10em;
+        height: 4em;
+        margin-right: 5em;
+    }
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.logo-p{
+    background-image: url(avatar.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1.2em;
+    height: 1.2em;
+
+}
+
+.tarjeta {
+    width: 16em;
+    height: 25em;
+    background-color: $mutated-grey;
+    padding: 0em;
+    border-radius: 0;
+    box-shadow: $box-shadow-card;
+    display: flex;
+    flex-direction: column;
+
+    .datos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        height: auto;
+        width: 85%;
+        margin: auto;
+        margin-top:1em;
+
+        .nombre {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: center;
+            .innerdata{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: left;
+                p {
+                    padding-left: 1em;
+                    font-size: 1.1rem;
+                    font-family: light-t;
+                    text-align: left;
+                    margin: 0;
+
+                    &:nth-child(1){
+                        font-weight: bold;
+                        
+                    }
+                    &:nth-child(2){
+                        font-weight: lighter;
+                        font-size: 0.9em;
+                        color: $dark-grey;
+                        margin-bottom: 1em;
+                    }
+                }
+    
+            }
+
+         
+        }
+
+        .info {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: left;
+            align-items: center;
+            
+          
+            .innerdata{
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: left;
+                p {
+                    padding-left: 1em;
+                    font-size: 1em;
+                    font-family: light-t;
+                    text-align: left;
+                    margin: 0;
+
+                    &:nth-child(1){
+                        font-weight: bold;
+                        
+                    }
+                    &:nth-child(2){
+                        font-weight: lighter;
+                        font-size: 0.9em;
+                        color: $dark-grey;
+                    }
+                }
+                
+            }
+            
+            &:nth-child(3){
+                padding-top:1em;
+                
+            }
+            
+        }
+       
+    }
+
+    .icono {
+        background-image: url(avatar.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: $colorThompson;
+        height: 8em;
+        width: 16em;
+        padding: auto;
+        padding-bottom: 0;
+      
+    }
+
+
+}
+
+.logo-li {
+    background-image: url(linkedinlogo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.logo-em {
+    background-image: url(iconfinder_multimedia-02_2849834.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    text-align: center;
+
+    .title {
+        font-size: 3em;
+        font-weight: bold;
+        position: relative;
+    }
+
+    hr {
+        width: 25%;
+        border: 2px solid black;
+
+    }
+}
+
+.row {
+    margin: 8em auto;
+
+}

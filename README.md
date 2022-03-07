@@ -1,10 +1,3 @@
-# clientes
-Lista de trabajos realizados y guardados.
+# ThompsonReuters
+Trabajo en PHP HTML CSS3 Jquery AJAX. con Email Marketing, Login y registro.
 
-## Lista
--Novoflor
--Julieta Nahum
--Pneumatic Norte
--Ecorad
--Flash_mobile
--Etel Frey

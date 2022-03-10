@@ -11,6 +11,8 @@ $bgcolor: "#F4F4F4";
 
 }
 
+
+
 body {
     min-width: 300px !important;
 }
@@ -92,6 +94,19 @@ body {
     .idiomas {
         padding-left: 3rem !important;
         padding-right: 3rem !important;
+        padding-top: 0.8rem !important;
+        padding-bottom: 0.8rem !important;
+
+        a {
+            color: white !important;
+
+        }
+
+        p {
+            color: white !important;
+            margin: 0;
+            padding: 0;
+        }
     }
 }
 

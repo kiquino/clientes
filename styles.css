@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=STIX+Two+Math:regular);
 :root {
-  --primary-color: #00AFEF;
-  --secondary-color: #333333;
+  --primary-color: #Ff6600;
+  --secondary-color: #9900CC;
   --feature-1: #091e61;
   --feature-2: #0554f2;
   --feature-3: #044bd9;
@@ -20,6 +20,341 @@ body {
   font-weight: bold;
 }
 
+#servicios .header-servicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#servicios .header-servicios .globo {
+  width: 300px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#servicios .header-servicios .globo img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#servicios .header-servicios .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 6rem;
+}
+
+#servicios .header-servicios .social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+#servicios .header-servicios .social ul li {
+  margin: 0.5rem;
+  list-style: none;
+}
+
+#servicios .servicios-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 3rem;
+}
+
+#servicios .servicios-elements .service-list {
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+#servicios .servicios-elements .service-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+}
+
+#servicios .servicios-elements .service-list ul li {
+  margin: auto 0;
+  list-style: none;
+  color: #9900CC;
+}
+
+#servicios .servicios-elements .vr {
+  width: 0.2rem;
+  color: #Ff6600;
+  opacity: 1;
+}
+
+#portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+  width: 100%;
+  background-color: #Ff6600;
+}
+
+#portfolio .header-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
+
+#portfolio .header-portfolio h1 {
+  font-size: 10rem;
+  font-family: 'museotitle' !important;
+  color: white;
+}
+
+#portfolio .header-portfolio ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#portfolio .header-portfolio ul li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: #9900CC;
+}
+
+#portfolio .header-portfolio ul li img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+#portfolio .header-portfolio ul .vr {
+  width: 0.1rem;
+  color: #9900CC;
+  opacity: 1;
+  margin: 0 1rem;
+}
+
+#CV {
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CV .header-cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+#CV .header-cv img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+  width: 100%;
+}
+
+#CV .content-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+}
+
+#CV .content-list .listaGrande {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#CV .content-list .listaGrande .vr {
+  color: #Ff6600;
+  width: 0.15rem;
+  opacity: 1;
+}
+
+#CV .content-list .listaGrande ul .orange {
+  color: #Ff6600;
+}
+
+#CV .content-list .listaGrande ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  color: #313131;
+}
+
+#CV .content-list .actualidad-y-cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+#CV .content-list .actualidad-y-cv img {
+  width: 100px;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 100%;
+}
+
+#CV .content-list .actualidad-y-cv .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CV .content-list .actualidad-y-cv .content .item1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#CV .content-list .actualidad-y-cv .content .item1 .vr {
+  color: #Ff6600;
+  width: 0.15rem;
+  opacity: 1;
+}
+
+#CV .content-list .actualidad-y-cv .content .item1 .actualidad {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#CV .content-list .actualidad-y-cv .content .item1 .actualidad ul .orange {
+  color: #Ff6600;
+}
+
+#CV .content-list .actualidad-y-cv .content .item1 .actualidad ul li {
+  list-style: none;
+}
+
 .fail {
   padding: 1em 2em;
   border-radius: 10px;
@@ -33,7 +368,7 @@ body {
 }
 
 #servicios {
-  background-color: "#F4F4F4";
+  background-color: #F4F4F4;
 }
 
 #servicios .header-servicios {
@@ -292,6 +627,10 @@ section {
 .navlist ul li a {
   font-weight: 600;
   font-size: large;
-  color: var(--secondary-color);
+  color: #F4F4F4 !important;
+}
+
+.navlist ul li a:hover {
+  color: #9900CC !important;
 }
 /*# sourceMappingURL=styles.css.map */

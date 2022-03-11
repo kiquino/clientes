@@ -1,10 +1,10 @@
-$color1 : "#Ff6600";
-$color2 : "#9900CC";
-$bgcolor: "#F4F4F4";
+$color1 : #Ff6600;
+$color2 : #9900CC;
+$bgcolor: #F4F4F4;
 
 :root {
-    --primary-color: #00AFEF;
-    --secondary-color: #333333;
+    --primary-color: #Ff6600;
+    --secondary-color: #9900CC;
     --feature-1: #091e61;
     --feature-2: #0554f2;
     --feature-3: #044bd9;
@@ -24,6 +24,232 @@ body {
     color: white !important;
     font-weight: bold;
 
+}
+
+#servicios {
+    .header-servicios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .globo {
+            width: 300px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        .social {
+            display: flex;
+            padding-right: 6rem;
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+
+                li {
+                    margin: 0.5rem;
+                    list-style: none;
+                }
+            }
+        }
+    }
+
+    .servicios-elements {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+
+        .service-list {
+            margin: 0 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-between;
+                height: auto;
+
+                li {
+                    margin: auto 0;
+                    list-style: none;
+                    color: $color2;
+                }
+            }
+        }
+
+        .vr {
+            width: 0.2rem;
+            color: $color1;
+            opacity: 1;
+        }
+    }
+}
+
+#portfolio {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    background-color: #Ff6600;
+
+    .header-portfolio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: max-content;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 10rem;
+            font-family: 'museotitle' !important;
+            color: white;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            li {
+                list-style: none;
+                font-weight: 500;
+                font-size: 1.5rem;
+                margin: 0;
+                padding: 0;
+                color: $color2;
+
+                img {
+                    object-fit: contain;
+                }
+            }
+
+            .vr {
+                width: 0.1rem;
+                color: $color2;
+                opacity: 1;
+                margin: 0 1rem;
+            }
+        }
+    }
+}
+
+#CV {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .header-cv {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+        img {
+            object-fit: cover;
+            height: auto;
+            width: 100%;
+
+        }
+    }
+
+    .content-list {
+        display: flex;
+        flex-direction: row;
+        margin: 2rem auto;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+
+
+        .listaGrande {
+            display: flex;
+            flex-direction: row;
+
+            .vr {
+                color: $color1;
+                width: 0.15rem;
+                opacity: 1;
+            }
+
+            ul {
+                .orange {
+                    color: $color1;
+                }
+
+                li {
+                    list-style: none;
+
+                    font-size: 1.1rem;
+                    margin: 0;
+                    padding: 0;
+                    color: rgb(49, 49, 49);
+                }
+            }
+        }
+
+        .actualidad-y-cv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+
+            img {
+                width: 100px;
+                height: auto;
+                object-fit: cover;
+                margin-bottom: 100%;
+            }
+
+            .content {
+                display: flex;
+                flex-direction: column;
+
+                .item1 {
+                    display: flex;
+                    flex-direction: row;
+
+                    .vr {
+                        color: $color1;
+                        width: 0.15rem;
+                        opacity: 1;
+                    }
+
+                    .actualidad {
+                        display: flex;
+                        flex-direction: column;
+
+                        ul {
+                            .orange {
+                                color: $color1;
+                            }
+
+                            li {
+                                list-style: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 .fail {
@@ -341,7 +567,11 @@ section {
             a {
                 font-weight: 600;
                 font-size: large;
-                color: var(--secondary-color);
+                color: $bgcolor !important;
+
+                &:hover {
+                    color: $color2 !important;
+                }
             }
         }
     }

@@ -284,7 +284,7 @@ body {
 #CV .content-list .listaGrande ul li {
   list-style: none;
   font-size: 1.1rem;
-  margin: 0;
+  margin: 0.5rem auto;
   padding: 0;
   color: #313131;
 }
@@ -308,7 +308,7 @@ body {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-bottom: 100%;
+  margin-bottom: 50%;
 }
 
 #CV .content-list .actualidad-y-cv .content {

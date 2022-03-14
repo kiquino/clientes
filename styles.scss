@@ -71,7 +71,7 @@ body {
         padding-bottom: 3rem;
 
         .service-list {
-            margin: 0 2rem;
+            margin: 0 1rem;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -93,7 +93,7 @@ body {
         }
 
         .vr {
-            width: 0.2rem;
+            width: 3px;
             color: $color1;
             opacity: 1;
         }
@@ -226,10 +226,70 @@ body {
                     display: flex;
                     flex-direction: row;
 
+                    &:nth-child(2) {
+                        margin-top: 2rem;
+                    }
+
                     .vr {
                         color: $color1;
                         width: 0.15rem;
                         opacity: 1;
+                    }
+
+                    .cv {
+                        display: flex;
+                        flex-direction: row;
+
+                        ul {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            justify-content: center;
+
+                            li {
+                                list-style: none;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: space-around;
+                                align-items: center;
+                                color: $color2;
+                                font-weight: bold;
+                                height: 90%;
+
+                                &:nth-child(1) {
+                                    p {
+                                        color: $color1;
+
+                                    }
+                                }
+
+                                * {
+                                    margin: 0;
+                                    padding: 0;
+                                }
+
+                                ul {
+                                    display: flex;
+                                    flex-direction: row;
+                                    flex-wrap: nowrap;
+
+                                    .orange {
+                                        color: $color1;
+                                    }
+
+                                    li {
+                                        img {
+                                            width: 20px;
+                                            height: auto;
+                                            object-fit: contain;
+                                            color: $color2;
+                                        }
+
+
+                                    }
+                                }
+                            }
+                        }
                     }
 
                     .actualidad {
@@ -246,6 +306,10 @@ body {
                             }
                         }
                     }
+                }
+
+                .item2 {
+                    margin-top: 1.5rem;
                 }
             }
         }

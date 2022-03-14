@@ -453,6 +453,21 @@ body {
   height: 100px;
 }
 
+#quote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+#quote img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .fail {
   padding: 1em 2em;
   border-radius: 10px;

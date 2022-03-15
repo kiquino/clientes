@@ -341,11 +341,12 @@ body {
     }
 }
 
-#quote{
+#quote {
     display: flex;
     width: 100%;
     height: auto;
-    img{
+
+    img {
         width: 100%;
         height: auto;
         object-fit: cover;

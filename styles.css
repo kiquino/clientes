@@ -540,11 +540,63 @@ body {
 #distinciones .list-distinciones ul li {
   list-style: none;
   margin: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 300px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 25rem;
 }
 
 #distinciones .list-distinciones ul li img {
   width: 250px;
   height: auto;
+}
+
+#distinciones .list-distinciones ul li .inside-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+}
+
+#distinciones .list-distinciones ul li .inside-text .vr {
+  width: 4px;
+  color: #Ff6600;
+  opacity: 1;
+}
+
+#distinciones .list-distinciones ul li .inside-text .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 1rem;
+  height: 10rem;
+}
+
+#distinciones .list-distinciones ul li .inside-text .text a {
+  color: #Ff6600;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#distinciones .list-distinciones ul li .inside-text .text p {
+  font-size: 1.3rem;
 }
 
 .fail {

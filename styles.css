@@ -599,6 +599,42 @@ body {
   font-size: 1.3rem;
 }
 
+.map {
+  width: 40%;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.map ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.map ul li {
+  list-style: none;
+}
+
+.map ul li img {
+  width: 40px;
+  height: auto;
+}
+
+.map .d-flex {
+  width: 550px;
+}
+
+.map .d-flex p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 500;
+}
+
 .fail {
   padding: 1em 2em;
   border-radius: 10px;

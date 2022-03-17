@@ -447,6 +447,39 @@ body {
     }
 }
 
+.map {
+    width: 40%;
+    height: auto;
+    margin-top: 2rem;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+
+        li {
+            list-style: none;
+
+            img {
+                width: 40px;
+                height: auto;
+            }
+        }
+    }
+
+    .d-flex {
+
+        width: 550px;
+
+
+        p {
+            text-align: center;
+            font-size: 1.5rem;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}
+
 .fail {
     padding: 1em 2em;
     border-radius: 10px;

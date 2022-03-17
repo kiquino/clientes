@@ -353,6 +353,57 @@ body {
     }
 }
 
+#distinciones {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: auto;
+
+    .header-distinciones {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        height: auto;
+
+        img {
+            width: 250px;
+            height: auto;
+            object-fit: contain;
+        }
+
+
+    }
+
+    .list-distinciones {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            li {
+                list-style: none;
+                margin: 1rem;
+
+                img {
+                    width: 250px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
 .fail {
     padding: 1em 2em;
     border-radius: 10px;

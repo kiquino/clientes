@@ -599,6 +599,26 @@ body {
   font-size: 1.3rem;
 }
 
+.contenedor-contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  height: auto;
+  margin-top: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.contenedor-contacto .header-contacto h1 {
+  font-size: 2.5rem;
+  color: #9900CC;
+  font-weight: bold;
+}
+
 .map {
   width: 40%;
   height: auto;
@@ -633,6 +653,13 @@ body {
   font-size: 1.5rem;
   color: white;
   font-weight: 500;
+}
+
+.contenedor_footer_img img {
+  width: 150px;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .fail {

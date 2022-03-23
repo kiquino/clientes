@@ -637,6 +637,7 @@ body {
 
 .map ul li {
   list-style: none;
+  margin: 0 0.2rem;
 }
 
 .map ul li img {

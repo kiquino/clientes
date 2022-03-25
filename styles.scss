@@ -103,13 +103,14 @@ body {
 #portfolio {
     display: flex;
     height: 80vh;
+    flex-direction: column;
     width: 100%;
     background-color: #Ff6600;
 
     .header-portfolio {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         text-align: center;
         width: max-content;

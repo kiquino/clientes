@@ -171,7 +171,7 @@ body {
 
 #portfolio .header-portfolio h1 {
   font-size: 10rem;
-  font-family: 'museotitle' !important;
+  font-family: 'DINN-regular' !important;
   color: white;
 }
 
@@ -443,14 +443,14 @@ body {
 
 #clientes .carousel-control-prev span:nth-child(1) {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%239900CC'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 #clientes .carousel-control-next span:nth-child(1) {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%239900CC'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 #quote {
@@ -533,13 +533,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  padding: 0;
+  margin: 0;
 }
 
 #distinciones .list-distinciones ul li {
   list-style: none;
-  margin: 1rem;
+  margin: 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -547,7 +549,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
+  width: 250px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -555,7 +557,7 @@ body {
 }
 
 #distinciones .list-distinciones ul li img {
-  width: 250px;
+  width: 200px;
   height: auto;
 }
 
@@ -592,6 +594,10 @@ body {
   color: #Ff6600;
   font-weight: bold;
   text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#distinciones .list-distinciones ul li .inside-text .text h2 {
   font-size: 1.3rem;
 }
 
@@ -730,6 +736,17 @@ body {
   padding-bottom: 0.8rem !important;
 }
 
+.nav-mobile .idiomas .no-mobile {
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .nav-mobile .idiomas a {
   color: white !important;
 }
@@ -738,6 +755,10 @@ body {
   color: white !important;
   margin: 0;
   padding: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(280,280, 280, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .text-quotes {
@@ -815,6 +836,26 @@ section {
 }
 
 @font-face {
+  font-family: 'DINN-Regular';
+  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: 'DINN-bold';
+  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Bold.otf");
+}
+
+@font-face {
+  font-family: 'DINN-italic';
+  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Italic.otf");
+}
+
+@font-face {
+  font-family: 'DINN-thin';
+  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Light.otf");
+}
+
+@font-face {
   font-family: 'museo';
   src: url(font/Fonts/MuseoSans_500.otf);
 }
@@ -825,7 +866,7 @@ section {
 }
 
 .text-title {
-  font-family: 'museotitle' !important;
+  font-family: 'DINN-Regular' !important;
 }
 
 .text-banner {
@@ -940,5 +981,9 @@ section {
 
 .navlist ul li a:hover {
   color: #9900CC !important;
+}
+
+.offcanvas {
+  background-color: #Ff6600;
 }
 /*# sourceMappingURL=styles.css.map */

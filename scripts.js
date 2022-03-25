@@ -1,33 +1,25 @@
+//Declaracion de elementos
+
+let navDesktop = $("#nav-desktop");
+let carDesktop = $("#carousel-desktop");
+let navMobile = $("#nav-mobile");
+let carMobile = $("#carousel-mobile");
+//Fin Declaracion de elementos
+
+let servicios = $('#servicios');
+
+
 //Evento Scroll
 $(document).on('scroll', function () {
 
     let distanceNav = navDesktop.offset().top;
     let distanceMobileNav = navDesktop.offset().top;
 
-    let posicionY = ($("#counter1").offset().top) - (($("#card-containers").height()));
+    let distanceServicio = servicios.offset().top;
+
     let scrolly = $(window).scrollTop();
-    let posicionY2 = ($("#counter2").offset().top) - (($("#card-containers").height()));
-    let posicionY3 = ($("#counter3").offset().top) - (($("#card-containers").height()));
-    let posicionY4 = ($("#counter4").offset().top) - (($("#card-containers").height()));
-    let posicionY5 = ($("#counter5").offset().top) - (($("#card-containers").height()));
-    let posicionY6 = ($("#counter6").offset().top) - (($("#card-containers").height()));
-    if (scrolly >= posicionY) {
-        c1.start();
-    }
-    if (scrolly >= posicionY2) {
-        c2.start();
-    }
-    if (scrolly >= posicionY3) {
-        c3.start();
-    }
-    if (scrolly >= posicionY4) {
-        c4.start();
-    }
-    if (scrolly >= posicionY5) {
-        c5.start();
-    }
-    if (scrolly >= posicionY6) {
-        c6.start();
+    if (scrolly > (distanceServicio) / 2) {
+        servicios.addClass('animate__animated animate__fadeInLeft');
     }
     //sticky Navs
     if (scrolly > distanceNav) {

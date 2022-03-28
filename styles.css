@@ -1528,7 +1528,9 @@ section {
     height: auto;
     background-color: #9900CC;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
     font-family: 'DINN-regular' !important;
   }
   .map ul {

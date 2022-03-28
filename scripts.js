@@ -8,10 +8,28 @@ let carMobile = $("#carousel-mobile");
 
 let servicios = $('#servicios');
 let cvimg = $('#cvimg');
+let frase = $('#frase');
+let clientes1 = $('#clientes-carousel-1');
+let clientes2 = $('#clientes-carousel-2');
+let clientes3 = $('#clientes-carousel-3');
 
 const breakpoint = 800;
 
+if ($(window).width() <= breakpoint) {
+    cvimg.attr('src', '/assets/VERSION_MOVIL/cv2.jpg');
+    frase.attr('src', '/assets/VERSION_MOVIL/frase.jpg');
+    clientes1.attr('src', '/assets/VERSION_MOVIL/clientes1.jpg');
+    clientes2.attr('src', '/assets/VERSION_MOVIL/clientes2.jpg');
+    clientes3.attr('src', '/assets/VERSION_MOVIL/clientes1.jpg');
 
+} else {
+    cvimg.attr('src', '/assets/PC/BANNER_BIO/BIO.jpg');
+    frase.attr('src', '/assets/PC/BANNER_FRASE/FRASE.png');
+    clientes1.attr('src', '/assets/PC/BANNERS_CLIENTES/C1.jpg');
+    clientes2.attr('src', '/assets/PC/BANNERS_CLIENTES/C2.jpg');
+    clientes3.attr('src', '/assets/PC/BANNERS_CLIENTES/C3.jpg');
+
+}
 //Evento Scroll
 $(document).on('scroll', function () {
 
@@ -185,8 +203,18 @@ $("#form-mobile").submit(function (event) {
 $(window).resize(function () {
 
     if ($(window).width() <= breakpoint) {
-        cvimg.attr('src', '/assets/VERSION_MOVIL/cv2.jpg')
+        cvimg.attr('src', '/assets/VERSION_MOVIL/cv2.jpg');
+        frase.attr('src', '/assets/VERSION_MOVIL/frase.jpg');
+        clientes1.attr('src', '/assets/VERSION_MOVIL/clientes1.jpg');
+        clientes2.attr('src', '/assets/VERSION_MOVIL/clientes2.jpg');
+        clientes3.attr('src', '/assets/VERSION_MOVIL/clientes1.jpg');
+
     } else {
-        cvimg.attr('src', '/assets/PC/BANNER_BIO/BIO.jpg')
+        cvimg.attr('src', '/assets/PC/BANNER_BIO/BIO.jpg');
+        frase.attr('src', '/assets/PC/BANNER_FRASE/FRASE.png');
+        clientes1.attr('src', '/assets/PC/BANNERS_CLIENTES/C1.jpg');
+        clientes2.attr('src', '/assets/PC/BANNERS_CLIENTES/C2.jpg');
+        clientes3.attr('src', '/assets/PC/BANNERS_CLIENTES/C3.jpg');
+
     }
 })

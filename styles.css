@@ -247,6 +247,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#CV .header-cv .mobile-cv-text li {
+  list-style: none;
 }
 
 #CV .header-cv img {
@@ -1295,6 +1301,272 @@ section {
   }
   #distinciones .list-distinciones ul li .inside-text .text p {
     font-size: 1.3rem;
+  }
+  #CV {
+    height: auto;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #CV .header-cv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  #CV .header-cv .mobile-cv-text {
+    display: none;
+    background-color: #Ff6600;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  #CV .header-cv .mobile-cv-text li {
+    list-style: none;
+  }
+  #CV .header-cv img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: auto;
+    width: 100%;
+  }
+  #CV .content-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 2rem auto;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 90%;
+  }
+  #CV .content-list .listaGrande {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #CV .content-list .listaGrande .vr {
+    color: #Ff6600;
+    width: 0.15rem;
+    opacity: 1;
+  }
+  #CV .content-list .listaGrande ul .orange {
+    color: #Ff6600;
+  }
+  #CV .content-list .listaGrande ul li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 0.5rem auto;
+    padding: 0;
+    color: #313131;
+  }
+  #CV .content-list .actualidad-y-cv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  #CV .content-list .actualidad-y-cv img {
+    width: 50px;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 50%;
+  }
+  #CV .content-list .actualidad-y-cv .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1:nth-child(2) {
+    margin-top: 2rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .vr {
+    color: #Ff6600;
+    width: 0.15rem;
+    opacity: 1;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #9900CC;
+    font-weight: bold;
+    height: 90%;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li:nth-child(1) p {
+    color: #Ff6600;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li * {
+    margin: 0;
+    padding: 0;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li ul .orange {
+    color: #Ff6600;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .cv ul li ul li img {
+    width: 20px;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    color: #9900CC;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .actualidad {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .actualidad ul .orange {
+    color: #Ff6600;
+  }
+  #CV .content-list .actualidad-y-cv .content .item1 .actualidad ul li {
+    list-style: none;
+  }
+  #CV .content-list .actualidad-y-cv .content .item2 {
+    margin-top: 1.5rem;
+  }
+  .map {
+    width: 100%;
+    height: auto;
+    background-color: #9900CC;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-family: 'DINN-regular' !important;
+  }
+  .map ul {
+    display: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .map ul li {
+    list-style: none;
+    margin: 0 0.2rem;
+  }
+  .map ul li img {
+    width: 40px;
+    height: auto;
+  }
+  .map .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: column-reverse !important;
+            flex-direction: column-reverse !important;
+    width: auto;
+    background-color: #9900CC !important;
+  }
+  .map .d-flex iframe {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .map .d-flex p {
+    font-family: 'DINN-regular';
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
   }
 }
 

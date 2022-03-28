@@ -169,6 +169,12 @@ body {
             background-color: $color1;
             width: 100%;
             display: flex;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+
+            li {
+                list-style: none;
+            }
         }
 
         img {
@@ -1103,7 +1109,234 @@ section {
     }
 
     // MOBILE
+    #CV {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
 
+        .header-cv {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+
+            .mobile-cv-text {
+                display: none;
+                background-color: $color1;
+                width: 100%;
+                display: flex;
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+
+                li {
+                    list-style: none;
+                }
+            }
+
+            img {
+                object-fit: cover;
+                height: auto;
+                width: 100%;
+
+            }
+        }
+
+        .content-list {
+            display: flex;
+            flex-direction: column;
+            margin: 2rem auto;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 90%;
+
+
+            .listaGrande {
+                display: flex;
+                flex-direction: row;
+
+                .vr {
+                    color: $color1;
+                    width: 0.15rem;
+                    opacity: 1;
+                }
+
+                ul {
+                    .orange {
+                        color: $color1;
+                    }
+
+                    li {
+                        list-style: none;
+
+                        font-size: 1.1rem;
+                        margin: 0.5rem auto;
+                        padding: 0;
+                        color: rgb(49, 49, 49);
+                    }
+                }
+            }
+
+            .actualidad-y-cv {
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                height: 100%;
+                margin-top: 2rem;
+                width: 100%;
+
+                img {
+                    width: 50px;
+                    height: auto;
+                    object-fit: cover;
+                    margin-bottom: 50%;
+                }
+
+                .content {
+                    display: flex;
+                    flex-direction: column;
+
+                    .item1 {
+                        display: flex;
+                        flex-direction: row;
+
+                        &:nth-child(2) {
+                            margin-top: 2rem;
+                            justify-content: space-between;
+                        }
+
+                        .vr {
+                            color: $color1;
+                            width: 0.15rem;
+                            opacity: 1;
+                        }
+
+                        .cv {
+                            display: flex;
+                            flex-direction: row;
+
+                            ul {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-start;
+                                justify-content: center;
+
+                                li {
+                                    list-style: none;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    color: $color2;
+                                    font-weight: bold;
+                                    height: 90%;
+
+                                    &:nth-child(1) {
+                                        p {
+                                            color: $color1;
+
+                                        }
+                                    }
+
+                                    * {
+                                        margin: 0;
+                                        padding: 0;
+                                    }
+
+                                    ul {
+                                        display: flex;
+                                        flex-direction: row;
+                                        flex-wrap: nowrap;
+
+                                        .orange {
+                                            color: $color1;
+                                        }
+
+                                        li {
+                                            img {
+                                                width: 20px;
+                                                height: auto;
+                                                object-fit: contain;
+                                                color: $color2;
+                                            }
+
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .actualidad {
+                            display: flex;
+                            flex-direction: column;
+
+                            ul {
+                                .orange {
+                                    color: $color1;
+                                }
+
+                                li {
+                                    list-style: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .item2 {
+                        margin-top: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
+    //MOBILE
+
+    .map {
+        width: 100%;
+        height: auto;
+        background-color: $color2;
+        margin: 0 auto;
+        margin-top: 2rem;
+        font-family: 'DINN-regular' !important;
+
+        ul {
+            display: none;
+            flex-direction: row;
+
+            li {
+                list-style: none;
+                margin: 0 0.2rem;
+
+                img {
+                    width: 40px;
+                    height: auto;
+                }
+            }
+        }
+
+        .d-flex {
+            display: flex;
+            flex-direction: column-reverse !important;
+            width: auto;
+            background-color: $color2 !important;
+
+            iframe {
+
+                margin: 0 auto;
+                width: 90%;
+            }
+
+            p {
+                font-family: 'DINN-regular';
+                text-align: center;
+                font-size: 1.5rem;
+                color: white;
+                font-weight: 500;
+            }
+        }
+    }
 
 }
 

@@ -7,10 +7,14 @@ let carMobile = $("#carousel-mobile");
 //Fin Declaracion de elementos
 
 let servicios = $('#servicios');
+let cvimg = $('#cvimg');
+
+const breakpoint = 800;
 
 
 //Evento Scroll
 $(document).on('scroll', function () {
+
 
     let distanceNav = navDesktop.offset().top;
     let distanceMobileNav = navDesktop.offset().top;
@@ -29,8 +33,12 @@ $(document).on('scroll', function () {
     }
     if (scrolly > carMobile.height()) {
         navMobile.addClass("fixed-top");
-    }
 
+    }
+    if (scrollY == 0) {
+        navMobile.removeClass("fixed-top");
+
+    }
 
 })
 
@@ -49,7 +57,14 @@ $("#form-desktop").submit(function (event) {
             text: $("#mensaje").val()
         }, function (data, status) {
             if (data) {
-                $("#mensaje-result").append("<div class='success' id='ap-men'>Mensaje enviado</div>");
+                Swal.fire({
+                    title: '¡Gracias!',
+                    text: 'Su mensaje ha sido enviado exitosamente',
+                    icon: 'success',
+
+                    confirmButtonText: 'Salir',
+
+                })
 
                 setTimeout(() => {
 
@@ -62,7 +77,15 @@ $("#form-desktop").submit(function (event) {
 
 
             } else {
-                $("#mensaje-result").append("<div class='fail' id='ap-men'>Mensaje no enviado</div>");
+                // $("#mensaje-result").append("<div class='fail' id='ap-men'>Mensaje no enviado</div>");
+                Swal.fire({
+                    title: 'Error',
+                    text: 'El mensaje no pudo ser enviado. Disculpamos las molestias.',
+                    icon: 'error',
+
+                    confirmButtonText: 'Adelante!',
+
+                })
 
                 setTimeout(() => {
 
@@ -77,7 +100,7 @@ $("#form-desktop").submit(function (event) {
         setTimeout(() => {
 
             $("#ap-men").remove();
-        }, 15000);
+        }, 5000);
 
     }
 
@@ -105,7 +128,12 @@ $("#form-mobile").submit(function (event) {
             agree: $("#agree").val()
         }, function (data, status) {
             if (data) {
-                $("#mensaje-result").append("<div class='success' id='ap-men'>Mensaje enviado</div>");
+                Swal.fire({
+                    title: '¡Gracias!',
+                    text: 'Su mensaje ha sido enviado exitosamente',
+                    icon: 'success',
+                    confirmButtonText: 'Salir'
+                })
 
                 setTimeout(() => {
 
@@ -118,7 +146,15 @@ $("#form-mobile").submit(function (event) {
 
 
             } else {
-                $("#mensaje-result").append("<div class='fail' id='ap-men'>Mensaje no enviado</div>");
+                Swal.fire({
+                    title: 'Error',
+                    text: 'El mensaje no pudo ser enviado. Disculpamos las molestias.',
+                    icon: 'error',
+
+                    confirmButtonText: 'Adelante!',
+
+                })
+
 
                 setTimeout(() => {
 
@@ -128,12 +164,12 @@ $("#form-mobile").submit(function (event) {
             }
         });
     } else {
-        $("#mensaje-result").append("<div class='fail' id='ap-men'>Debe escribir un mensaje</div>");
+        $("#mensaje-result2").append("<div class='fail' id='ap-men'>Debe escribir un mensaje</div>");
 
         setTimeout(() => {
 
             $("#ap-men").remove();
-        }, 15000);
+        }, 5000);
 
     }
 
@@ -143,3 +179,14 @@ $("#form-mobile").submit(function (event) {
 
 });
 //FIN FORM MOBILE
+
+
+//cambiar imagen en mobile
+$(window).resize(function () {
+
+    if ($(window).width() <= breakpoint) {
+        cvimg.attr('src', '/assets/VERSION_MOVIL/cv2.jpg')
+    } else {
+        cvimg.attr('src', '/assets/PC/BANNER_BIO/BIO.jpg')
+    }
+})

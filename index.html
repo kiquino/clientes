@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" type="image/ico" href="mldg.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="sweetalert2.min.css">
     <title>Mariana Ladaga</title>
 </head>
 
@@ -84,17 +85,17 @@
                                             <a class="nav-link active" aria-current="page" href="#bio">BIO</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#CV">CV</a>
+                                            <a class="nav-link" href="#SERVICIOS">SERVICIOS</a>
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link " href="#INFOGRAFIA">INFOGRAFÍA</a>
+                                            <a class="nav-link " href="#PORTFOLIO">PORTFOLIO</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#portfolio" class="nav-link">PORTFOLIO</a>
+                                            <a href="#CLIENTES" class="nav-link">CLIENTES</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a href="#ESPACIO" class="nav-link">ESPACIO</a>
+                                            <a href="#DISTINCIONES" class="nav-link">DISTINCIONES</a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#CONTACTO" class="nav-link">CONTACTO</a>
@@ -198,16 +199,13 @@
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#mobile-carousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+
 
                 </div>
                 <div class="carousel-inner">
 
                     <div class="carousel-item active">
-                        <img src="assets/BANNERS/CEL/ESPAÑOL/1.png" class="d-block w-100" alt="banner 2">
+                        <img src="assets/VERSION_MOVIL/bannerhome1.jpg" class="d-block w-100" alt="banner 2">
                         <div class="position-absolute" style="width: 100%;
                         height: 95%;
                         top: 0;
@@ -226,30 +224,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="carousel-item ">
-                        <img src="assets/" class="d-block w-100" alt="banner 3">
-                        <div class="position-absolute" style="width: 90%;
-                        height: 95%;
-                        top: 0;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: end;
-                        align-items: center;">
-                            <p class="text-white text-title display-1 text-start fw-normal"> DISEÑANDO <br> <b
-                                    class="fw-bolder">FUTURO</b></p>
-                            <!-- <ul class="list-unstyled d-flex flex-row text-start mx-auto" style="width:80%">
-                                <li class="me-3"> <a class="text-decoration-none"
-                                        href="https://www.instagram.com/etelfreyarquitecta/"><i
-                                            class="fab fa-instagram text-white display-3"></i></a> </li>
-                                <li><a class="text-decoration-none"
-                                        href="https://www.facebook.com/EtelFreyArquitecta"><i
-                                            class="fab fa-facebook text-white display-3"></i></a></li>
-                            </ul> -->
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="WEB_EF/BANNERS/CEL/ESPAÑOL/3.png" alt="banner 4" srcset="" class="d-block w-100">
-                    </div>
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#mobile-carousel"
                     data-bs-slide="prev">
@@ -455,7 +430,23 @@
         </div>
         <div id="CV">
             <div class="header-cv">
-                <img src="assets/PC/BANNER_BIO/BIO.jpg" alt="">
+                <img id="cvimg" src="assets/PC/BANNER_BIO/BIO.jpg" alt="">
+                <div class="mobile-cv-text">
+                    <ul>
+                        <ul>
+                            <li>+LIC. EN ARTE Y DISEÑO DIGITAL</li>
+                            <li>//UNIVERSIDAD EL SALVADOR// ARG.</li>
+                        </ul>
+                        <ul>
+                            <li>+TESISTA. MAESTRÍA DISEÑO DE GESTIÓN E INNOVACIÓN</li>
+                            <li>//UNNOBA //ARGENTINA</li>
+                        </ul>
+                        <ul>
+                            <li>+POSGRADO EN DISEÑO, FEMINISMO Y TEORÍA DE GÉNERO</li>
+                            <li>FADU//UBA//ARG</li>
+                        </ul>
+                    </ul>
+                </div>
             </div>
             <div class="content-list">
                 <div class="listaGrande">
@@ -761,7 +752,7 @@
                                     <div class="submit d-flex flex-column pb-4">
                                         <p class="text-white">* Datos Obligatorios</p>
                                         <div id="mensaje-result"></div>
-                                        <input class=" btn btn-primary text-dark ms-auto  text-white" type="submit"
+                                        <input class=" btn color-send text-dark ms-auto  text-white" type="submit"
                                             value="::ENVIAR::">
                                     </div>
 
@@ -774,7 +765,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column d-md-none d-lg-none d-xl-none " id="contacto-mobile">
-                <div class=" d-flex flex-row vh-100">
+                <!-- <div class=" d-flex flex-row vh-100">
                     <div class=" justify-content-center text-start align-items-center d-flex mx-auto">
                         <div id="header-contact" class=" d-flex flex-column  my-auto">
                             <div class="d-flex flex-row justify-content-between">
@@ -792,9 +783,9 @@
                             <p class="font-banner tc-1 text-title display-1">CONTACTO</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <div class="w-100 d-flex flex-column  mx-auto color-1">
+                <div class="w-100 d-flex flex-column  mx-auto color-2">
                     <div class="vh-100 d-flex flex-column w-100 justify-content-center align-items-center">
                         <div class="row text-center d-flex flex-column py-3 w-100">
                             <a class="text-decoration-none" href="tel:+54 9 3764 231632">
@@ -806,7 +797,7 @@
                         </div>
                         <div class="row w-100">
                             <form id="form-mobile" class="ah mx-auto px-5" action="">
-                                <div class="mensaje-result" id="mensaje-result"></div>
+                                <div class="mensaje-result" id="mensaje-result2"></div>
                                 <div class="">
                                     <div class="mb-3 form-floating">
 
@@ -849,7 +840,7 @@
                                 <div class="submit d-flex flex-column pb-4">
                                     <p class="text-white">* Datos Obligatorios</p>
                                     <div id="mensaje-result"></div>
-                                    <input class=" btn btn-primary text-dark ms-auto  text-white" type="submit"
+                                    <input class=" btn color-send text-dark ms-auto  text-white" type="submit"
                                         value="::ENVIAR::">
                                 </div>
 
@@ -902,9 +893,13 @@
         <!-- SCRIPTS -->
         <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
-        <script src="scripts.js"></script>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="sweetalert2.all.min.js"></script>
+
+        <script src="scripts.js"></script>
 </body>
 
 </html>

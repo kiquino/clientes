@@ -1061,7 +1061,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-right: 6rem;
+    padding-right: 0;
   }
   #servicios .header-servicios .social ul {
     display: -webkit-box;

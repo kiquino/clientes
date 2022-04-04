@@ -162,6 +162,14 @@ body {
                 padding: 0;
                 margin: 0;
 
+                .accordion-header {
+
+
+                    button {
+                        background-color: $color1;
+                    }
+                }
+
                 .accordion-collapse {
                     .accordion-body {
                         margin: 0;
@@ -173,6 +181,7 @@ body {
 
                             .carousel-inner {
                                 .carousel-item {
+
                                     img {
                                         width: 100%;
                                     }
@@ -199,7 +208,7 @@ body {
         width: 100%;
 
         .mobile-cv-text {
-            display: none;
+            display: none !important;
             background-color: $color1;
             width: 100%;
             display: flex;
@@ -1156,7 +1165,7 @@ section {
             width: 100%;
 
             .mobile-cv-text {
-                display: none;
+                display: flex !important;
                 background-color: $color1;
                 width: 100%;
                 display: flex;

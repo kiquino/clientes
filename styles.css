@@ -232,6 +232,10 @@ body {
   margin: 0;
 }
 
+#portfolio .lista-portfolio .accordion .accordion-item .accordion-header button {
+  background-color: #Ff6600;
+}
+
 #portfolio .lista-portfolio .accordion .accordion-item .accordion-collapse .accordion-body {
   margin: 0;
   padding: 0;
@@ -271,7 +275,7 @@ body {
 }
 
 #CV .header-cv .mobile-cv-text {
-  display: none;
+  display: none !important;
   background-color: #Ff6600;
   width: 100%;
   display: -webkit-box;
@@ -1355,11 +1359,11 @@ section {
     width: 100%;
   }
   #CV .header-cv .mobile-cv-text {
-    display: none;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
     background-color: #Ff6600;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-top: 3rem;
     padding-bottom: 3rem;

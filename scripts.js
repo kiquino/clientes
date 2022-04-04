@@ -67,7 +67,7 @@ $("#form-desktop").submit(function (event) {
     event.preventDefault();
 
     if ($("#mensaje").val() != '') {
-        $.post("email.php", {
+        $.post("mail.php", {
             nombre: $("#nombre").val(),
 
             mail: $("#email").val(),
@@ -136,7 +136,7 @@ $("#form-mobile").submit(function (event) {
     event.preventDefault();
 
     if ($("#mensaje-mobile").val() != '') {
-        $.post("email.php", {
+        $.post("mail.php", {
             nombre: $("#nombre-mobile").val(),
 
             mail: $("#email-mobile").val(),
@@ -145,6 +145,7 @@ $("#form-mobile").submit(function (event) {
 
             agree: $("#agree").val()
         }, function (data, status) {
+            console.log(status)
             if (data) {
                 Swal.fire({
                     title: '¡Gracias!',

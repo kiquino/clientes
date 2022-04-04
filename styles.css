@@ -898,12 +898,12 @@ section {
 
 @font-face {
   font-family: 'DINN-Regular';
-  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Regular.otf");
+  src: url("./assets/TIPOGRAFIA/DINNextLTPro-Regular.otf");
 }
 
 @font-face {
   font-family: 'DINN-bold';
-  src: url("/assets/TIPOGRAFIA/DINNextLTPro-Bold.otf");
+  src: url("./assets/TIPOGRAFIA/DINNextLTPro-Bold.otf");
 }
 
 @font-face {

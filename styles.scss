@@ -150,6 +150,40 @@ body {
             }
         }
     }
+
+    .lista-portfolio {
+        display: flex;
+
+        .accordion {
+            width: 99vw;
+
+            .accordion-item {
+                width: 100%;
+                padding: 0;
+                margin: 0;
+
+                .accordion-collapse {
+                    .accordion-body {
+                        margin: 0;
+                        padding: 0;
+
+                        .carousel {
+                            margin: 0;
+                            padding: 0;
+
+                            .carousel-inner {
+                                .carousel-item {
+                                    img {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 #CV {

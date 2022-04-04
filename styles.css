@@ -216,6 +216,36 @@ body {
   margin: 0 1rem;
 }
 
+#portfolio .lista-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#portfolio .lista-portfolio .accordion {
+  width: 99vw;
+}
+
+#portfolio .lista-portfolio .accordion .accordion-item {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#portfolio .lista-portfolio .accordion .accordion-item .accordion-collapse .accordion-body {
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio .lista-portfolio .accordion .accordion-item .accordion-collapse .accordion-body .carousel {
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio .lista-portfolio .accordion .accordion-item .accordion-collapse .accordion-body .carousel .carousel-inner .carousel-item img {
+  width: 100%;
+}
+
 #CV {
   height: auto;
   width: 100%;

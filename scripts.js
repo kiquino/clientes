@@ -65,7 +65,11 @@ $(document).on('scroll', function () {
 
 $("#form-desktop").submit(function (event) {
     event.preventDefault();
-
+    $("#submit-desktop").prop('disabled', true);
+    $("#nombre").prop('disabled', true);
+    $("#email").prop('disabled', true);
+    $("#mensaje").prop('disabled', true);
+    $("#tel").prop('disabled', true);
     if ($("#mensaje").val() != '') {
         $.post("mail.php", {
             nombre: $("#nombre").val(),
@@ -84,7 +88,11 @@ $("#form-desktop").submit(function (event) {
                     confirmButtonText: 'Salir',
 
                 })
-
+                $("#submit-desktop").prop('disabled', false);
+                $("#nombre").prop('disabled', false);
+                $("#email").prop('disabled', false);
+                $("#mensaje").prop('disabled', false);
+                $("#tel").prop('disabled', false);
                 setTimeout(() => {
 
                     $("#ap-men").remove();
@@ -135,6 +143,11 @@ $("#form-desktop").submit(function (event) {
 
 $("#form-mobile").submit(function (event) {
     event.preventDefault();
+    $("#submit-mobile").prop('disabled', true);
+    $("#nombre-mobile").prop('disabled', true);
+    $("#email-mobile").prop('disabled', true);
+    $("#mensaje-mobile").prop('disabled', true);
+    $("#tel-mobile").prop('disabled', true);
 
     if ($("#mensaje-mobile").val() != '') {
         $.post("mail.php", {
@@ -154,7 +167,11 @@ $("#form-mobile").submit(function (event) {
                     icon: 'success',
                     confirmButtonText: 'Salir'
                 })
-
+                $("#submit-mobile").prop('disabled', false);
+                $("#mensaje-mobile").prop('disabled', false);
+                $("#nombre-mobile").prop('disabled', false);
+                $("#email-mobile").prop('disabled', false);
+                $("#tel-mobile").prop('disabled', false);
                 setTimeout(() => {
 
                     $("#ap-men").remove();

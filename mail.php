@@ -22,7 +22,7 @@ $mensaje .= "</p> \r\n <hr style='border:1px solid black'><br> Responder a: <a h
 if ($nombre != '') {
 
 
-    if (mail('info@etelfreyarquitecta.com.ar', $subject, $mensaje, $header)) {
+    if (mail($dest1, $subject, $mensaje, $header)) {
         echo true;
     }
 } else {

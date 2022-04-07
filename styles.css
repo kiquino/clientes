@@ -234,6 +234,11 @@ body {
 
 #portfolio .lista-portfolio .accordion .accordion-item .accordion-header button {
   background-color: #Ff6600;
+  padding-left: 15%;
+  color: white;
+  font-family: 'DINN-regular' !important;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 #portfolio .lista-portfolio .accordion .accordion-item .accordion-collapse .accordion-body {

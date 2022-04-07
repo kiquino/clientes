@@ -103,9 +103,10 @@ body {
 
 #portfolio {
     display: flex;
-    height: 80vh;
+    height: 100%;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 3rem;
     background-color: #Ff6600;
 
     .header-portfolio {

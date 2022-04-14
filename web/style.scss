@@ -12,6 +12,9 @@ $color-2:rgb(255, 255, 255);
     font-family: $font-family;
 }
 
+
+
+
 header {
     background-image: url(assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg);
     background-attachment: fixed;
@@ -33,6 +36,8 @@ header {
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+
+
 
         .logo {
             margin-left: 1rem;
@@ -108,6 +113,10 @@ header {
         width: 100%;
         height: 100%;
         align-items: center;
+
+        .animate__animated.animate__fadeInDown {
+            --animate-duration: 2s;
+        }
 
         h1 {
             font-size: 3rem;
@@ -197,6 +206,7 @@ header {
 
     h1 {
         font-size: 2.5rem;
+        margin: 2rem 0;
     }
 
     .rodados {
@@ -207,12 +217,46 @@ header {
         justify-content: center;
 
         article {
+            &:nth-child(2) {
+                flex-direction: row-reverse;
+            }
+
             width: 100%;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             background-color: #a64f03;
             min-height: 4rem;
+            justify-content: space-between;
+            align-items: center;
+            margin:0.5rem 0;
+
+
+            img {
+                width: 50%;
+                height: 20rem;
+                object-fit: cover;
+                object-position: bottom;
+            }
+
+            .rodado-info {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                width: auto;
+                margin: 0 auto;
+            }
         }
     }
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: $color-1;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: 5rem;
 }

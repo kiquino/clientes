@@ -1,0 +1,6 @@
+<FilesMatch \.p(hp|hp5|hp7|html)$>
+    SetHandler proxy:unix:/opt/php7-4/var/run/php-fpm/c2540596.sock|fcgi://c2540596
+</FilesMatch>
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}

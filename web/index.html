@@ -18,10 +18,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+    <script type="text/javascript">
+        const tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" :
+            "http://www.trustlogo.com/");
+        document.write(unescape("<script src='" + tlJsHost +
+            "trustlogo/javascript/trustlogo.js' type='text/javascript' %3E%3C/script%3E"));
+    </script>
 </head>
 
-<body>
+<>
     <header>
         <nav class="animate__animated animate__fadeInDown">
             <div class="logo">
@@ -108,13 +113,28 @@
             </article>
         </div>
     </section>
+    <section id="modulos">
+        <h1>Modulos</h1>
+    </section>
+    <section id="contacto">
+        <h1>Contacto</h1>
+        <div class="contacto-form">
+            <form action="">
+            </form>
+        </div>
+    </section>
     <footer>
-
+        <script language="JavaScript" type="text/javascript">
+            TrustLogo("https://micuenta.donweb.com/img/sectigo_positive_sm.png", "CL1", "none");
+        </script><a href="https://donweb.com/es-ar/certificados-ssl" id="comodoTL"
+            title="Certificados SSL Argentina">Certificados SSL Argentina</a>
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-</body>
+
+
+    </body>
 
 </html>

@@ -278,6 +278,7 @@ header .header-floating-elements h1 {
           align-items: center;
   padding-top: 3rem;
   padding-bottom: 4rem;
+  background-color: rgba(190, 248, 182, 0.5);
 }
 
 #rodados h1 {
@@ -355,6 +356,31 @@ header .header-floating-elements h1 {
   text-align: center;
   width: auto;
   margin: 0 auto;
+}
+
+#modulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#modulos h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
 }
 
 footer {

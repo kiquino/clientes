@@ -134,9 +134,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+
     padding-bottom: 4rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
+    background-color: $color-2;
 
     .intro-text {
         display: flex;
@@ -203,9 +204,10 @@ header {
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 4rem;
-    background-color: rgba(190, 248, 182, 0.5);
+    background-color: rgba(#1D8AA1, 0.2);
 
     h1 {
+        color: black;
         font-size: 2.5rem;
         margin: 2rem 0;
     }
@@ -222,6 +224,7 @@ header {
                 flex-direction: row-reverse;
             }
 
+            color: white;
             width: 100%;
             display: flex;
             flex-direction: row;

@@ -174,9 +174,9 @@ header .header-floating-elements h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2rem;
   padding-bottom: 4rem;
-  padding-top: 3rem;
+  padding-top: 4rem;
+  background-color: white;
 }
 
 #introduccion .intro-text {
@@ -278,10 +278,11 @@ header .header-floating-elements h1 {
           align-items: center;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  background-color: rgba(190, 248, 182, 0.5);
+  background-color: rgba(29, 138, 161, 0.2);
 }
 
 #rodados h1 {
+  color: black;
   font-size: 2.5rem;
   margin: 2rem 0;
 }
@@ -302,6 +303,7 @@ header .header-floating-elements h1 {
 }
 
 #rodados .rodados article {
+  color: white;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

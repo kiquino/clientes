@@ -101,9 +101,12 @@ header nav .menu li a {
   font-size: 1.1rem;
   font-weight: bold;
   text-align: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header nav .menu li a:hover {
+  color: #1D8AA1;
   text-decoration: underline;
 }
 
@@ -287,6 +290,11 @@ header .header-floating-elements h1 {
   margin: 2rem 0;
 }
 
+#rodados p {
+  text-align: center;
+  width: 50%;
+}
+
 #rodados .rodados {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -360,6 +368,10 @@ header .header-floating-elements h1 {
   margin: 0 auto;
 }
 
+#rodados .rodados article .rodado-info p {
+  width: 80%;
+}
+
 #modulos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,6 +395,203 @@ header .header-floating-elements h1 {
 #modulos h1 {
   font-size: 2.5rem;
   margin: 2rem 0;
+}
+
+#modulos p {
+  text-align: center;
+  width: 50%;
+}
+
+#modulos .modulos {
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.separatorImg {
+  margin-bottom: 2rem;
+  background-image: url(assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  width: 100%;
+  height: 40vh;
+  position: relative;
+}
+
+.separatorImg .testimonial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 100%;
+  margin: auto auto;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 40%;
+}
+
+.separatorImg .testimonial cite {
+  font-weight: 300;
+}
+
+#contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#contacto h1 {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+#contacto .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contacto .social li {
+  margin: 0rem 0.5rem;
+  list-style: none;
+}
+
+#contacto .social li a i {
+  font-size: 1.5rem;
+  color: black;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+#contacto .social li a i:hover {
+  color: #a64f03;
+}
+
+#contacto p {
+  margin-top: 3rem;
+  width: 40%;
+}
+
+#contacto .contacto-form {
+  margin-top: 3rem;
+  width: 60%;
+}
+
+#contacto .contacto-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: auto;
+}
+
+#contacto .contacto-form form button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #a64f03;
+  font-weight: bold;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+  color: white;
+  margin-left: auto;
+}
+
+#contacto .contacto-form form button:hover {
+  cursor: pointer;
+  background-color: #1D8AA1;
+}
+
+#contacto .contacto-form form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contacto .contacto-form form .form-group .form-item {
+  margin: 0 2rem;
+  width: 300px;
+}
+
+#contacto .contacto-form form .form-group .form-item i {
+  position: absolute;
+  color: #a64f03;
+  z-index: 2;
+  font-size: 1.5rem;
+}
+
+#contacto .contacto-form form .form-group .form-item input {
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.1rem;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  color: black;
+  padding-left: 2rem;
+}
+
+#contacto .contacto-form form .form-group .form-item input:focus {
+  outline: none;
+  border-bottom: 1px solid #a64f03;
 }
 
 footer {

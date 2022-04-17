@@ -138,6 +138,11 @@ body {
                 padding: 0;
                 color: $color2;
 
+                a {
+                    color: $color2;
+                    text-decoration: none;
+                }
+
                 img {
                     object-fit: contain;
                 }
@@ -893,31 +898,7 @@ section {
     }
 }
 
-@media screen and (max-width:750px) {
-    .card {
-        min-width: 100% !important;
-        min-height: 18rem !important;
-        margin-right: 0 !important;
-        margin-bottom: 0 !important;
 
-        .card-body {
-            .display-3 {
-                font-size: 7rem;
-            }
-
-            .card-text {
-                .text-title {
-                    font-size: 3.5rem !important;
-                    line-height: 2rem !important;
-                }
-            }
-
-
-
-
-        }
-    }
-}
 
 @media screen and (max-width: 900px) {
 
@@ -947,7 +928,8 @@ section {
                 ul {
                     display: flex;
                     flex-direction: row;
-                    flex-wrap: nowrap;
+                    flex-wrap: wrap;
+                    min-width: 150px;
 
                     li {
                         margin: 0.5rem;
@@ -1003,7 +985,7 @@ section {
     // MOBILE
     #portfolio {
         display: flex;
-        height: 80vh;
+        height: auto;
         flex-direction: column;
         width: 100%;
         background-color: #Ff6600;
@@ -1035,7 +1017,7 @@ section {
                 li {
                     list-style: none;
                     font-weight: 500;
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     margin: 0;
                     padding: 0;
                     color: $color2;
@@ -1410,6 +1392,192 @@ section {
                 &:hover {
                     color: $color2 !important;
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:750px) {
+    .card {
+        min-width: 100% !important;
+        min-height: 18rem !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+
+        .card-body {
+            .display-3 {
+                font-size: 7rem;
+            }
+
+            .card-text {
+                .text-title {
+                    font-size: 3.5rem !important;
+                    line-height: 2rem !important;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    // MOBILE 750
+    #portfolio {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #Ff6600;
+
+        .header-portfolio {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin: 2rem auto;
+            flex-wrap: wrap;
+            padding-top: 3rem;
+
+            h1 {
+                font-size: 5rem;
+                font-family: 'DINN-regular' !important;
+                color: white;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    font-weight: 700;
+                    font-size: 0.9rem;
+                    margin: 0 0.2rem;
+                    padding: 0;
+                    color: $color2;
+
+                    img {
+                        display: none;
+                        object-fit: contain;
+                    }
+                }
+
+                .vr {
+                    margin: 0.2rem;
+                }
+            }
+        }
+    }
+
+    #CV {
+
+
+
+        .content-list {
+
+
+
+
+
+            .actualidad-y-cv {
+
+
+                img {
+                    width: 50px;
+                    height: auto;
+                    object-fit: contain;
+                    margin-bottom: 50%;
+                }
+
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+
+    //MOBILE 400
+    #portfolio {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #Ff6600;
+
+        .header-portfolio {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin: 2rem auto;
+            flex-wrap: wrap;
+            padding-top: 3rem;
+
+            h1 {
+                font-size: 3.5rem;
+                font-family: 'DINN-regular' !important;
+                color: white;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-wrap: wrap;
+
+                li {
+                    list-style: none;
+                    font-weight: 500;
+                    font-size: 1.2rem;
+                    margin: 0;
+                    padding: 0;
+                    color: $color2;
+
+                    img {
+                        object-fit: contain;
+                    }
+                }
+
+                .vr {
+                    display: none;
+
+                }
+            }
+        }
+    }
+
+    #CV {
+
+
+
+        .content-list {
+
+
+
+
+
+            .actualidad-y-cv {
+
+
+                img {
+                    width: 30px;
+                    height: auto;
+                    object-fit: contain;
+                    margin-bottom: 50%;
+                }
+
+
             }
         }
     }

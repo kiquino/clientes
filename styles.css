@@ -205,6 +205,11 @@ body {
   color: #9900CC;
 }
 
+#portfolio .header-portfolio ul li a {
+  color: #9900CC;
+  text-decoration: none;
+}
+
 #portfolio .header-portfolio ul li img {
   -o-object-fit: contain;
      object-fit: contain;
@@ -1016,22 +1021,6 @@ section {
   font-size: 2.5rem !important;
 }
 
-@media screen and (max-width: 750px) {
-  .card {
-    min-width: 100% !important;
-    min-height: 18rem !important;
-    margin-right: 0 !important;
-    margin-bottom: 0 !important;
-  }
-  .card .card-body .display-3 {
-    font-size: 7rem;
-  }
-  .card .card-body .card-text .text-title {
-    font-size: 3.5rem !important;
-    line-height: 2rem !important;
-  }
-}
-
 @media screen and (max-width: 900px) {
   #servicios .header-servicios {
     display: -webkit-box;
@@ -1077,8 +1066,9 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-width: 150px;
   }
   #servicios .header-servicios .social ul li {
     margin: 0.5rem;
@@ -1148,7 +1138,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 80vh;
+    height: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1202,7 +1192,7 @@ section {
   #portfolio .header-portfolio ul li {
     list-style: none;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
     color: #9900CC;
@@ -1628,6 +1618,181 @@ section {
 
 .navlist ul li a:hover {
   color: #9900CC !important;
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    min-width: 100% !important;
+    min-height: 18rem !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .card .card-body .display-3 {
+    font-size: 7rem;
+  }
+  .card .card-body .card-text .text-title {
+    font-size: 3.5rem !important;
+    line-height: 2rem !important;
+  }
+  #portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background-color: #Ff6600;
+  }
+  #portfolio .header-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 3rem;
+  }
+  #portfolio .header-portfolio h1 {
+    font-size: 5rem;
+    font-family: 'DINN-regular' !important;
+    color: white;
+  }
+  #portfolio .header-portfolio ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+  #portfolio .header-portfolio ul li {
+    list-style: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin: 0 0.2rem;
+    padding: 0;
+    color: #9900CC;
+  }
+  #portfolio .header-portfolio ul li img {
+    display: none;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #portfolio .header-portfolio ul .vr {
+    margin: 0.2rem;
+  }
+  #CV .content-list .actualidad-y-cv img {
+    width: 50px;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-bottom: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    background-color: #Ff6600;
+  }
+  #portfolio .header-portfolio {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 2rem auto;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 3rem;
+  }
+  #portfolio .header-portfolio h1 {
+    font-size: 3.5rem;
+    font-family: 'DINN-regular' !important;
+    color: white;
+  }
+  #portfolio .header-portfolio ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #portfolio .header-portfolio ul li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    color: #9900CC;
+  }
+  #portfolio .header-portfolio ul li img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  #portfolio .header-portfolio ul .vr {
+    display: none;
+  }
+  #CV .content-list .actualidad-y-cv img {
+    width: 30px;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    margin-bottom: 50%;
+  }
 }
 
 .offcanvas {

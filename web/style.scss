@@ -439,6 +439,23 @@ header {
                     }
 
 
+
+
+                }
+
+                &:nth-child(3) {
+                    i {
+                        padding: 1rem;
+                    }
+
+                    .form-item {
+                        textarea {
+                            width: 100%;
+                            padding: 3rem;
+                            font-size: 1.1rem;
+                            font-family: 'Open Sans';
+                        }
+                    }
                 }
             }
         }

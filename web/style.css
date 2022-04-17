@@ -594,6 +594,17 @@ header .header-floating-elements h1 {
   border-bottom: 1px solid #a64f03;
 }
 
+#contacto .contacto-form form .form-group:nth-child(3) i {
+  padding: 1rem;
+}
+
+#contacto .contacto-form form .form-group:nth-child(3) .form-item textarea {
+  width: 100%;
+  padding: 3rem;
+  font-size: 1.1rem;
+  font-family: 'Open Sans';
+}
+
 footer {
   width: 100%;
   height: auto;

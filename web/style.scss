@@ -323,17 +323,18 @@ header {
 
         }
 
-        .image-intro img {
+        img.image-intro {
             width: 50%;
             height: auto;
             object-fit: contain;
         }
 
         .image-intro-mobile {
+
             width: 100%;
             height: auto;
             position: relative;
-            display: flex;
+            display: none;
             justify-content: center;
             align-items: center;
 
@@ -692,6 +693,10 @@ footer {
                 height: 30vh;
                 object-fit: cover;
                 object-position: bottom;
+            }
+
+            .image-intro-mobile {
+                display: flex;
             }
         }
 

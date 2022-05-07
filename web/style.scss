@@ -164,11 +164,14 @@ nav {
 
             display: block;
             height: 0;
-            transition: visibility 0s, height 0.5s ease-in-out;
+            overflow: hidden;
+
+            transition: height 0.2s ease-in-out;
 
             &.active {
                 height: 70vh;
                 display: block;
+
                 visibility: visible;
             }
 
@@ -247,6 +250,7 @@ header {
     // min-height: 40vh;
     // height: 80vh;
     .carousel-item {
+        margin-top: 4rem;
         height: 100vh;
 
         img {
@@ -319,10 +323,34 @@ header {
 
         }
 
-        img {
+        .image-intro img {
             width: 50%;
             height: auto;
             object-fit: contain;
+        }
+
+        .image-intro-mobile {
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 100%;
+                min-height: 25vh;
+                object-fit: cover;
+                object-position: bottom;
+            }
+
+            h2 {
+                position: absolute;
+                font-weight: 600;
+                font-size: 3rem;
+                color: white;
+                letter-spacing: 3px;
+            }
         }
     }
 
@@ -634,6 +662,70 @@ footer {
 
         .mobile-nav {
             display: flex;
+        }
+    }
+
+    header {
+        .carousel-item {
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    #introduccion {
+
+
+        .intro-text {
+            width: 100%;
+            flex-direction: column-reverse;
+
+            .text {
+                width: 90%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            img.image-intro {
+                display: none;
+                width: 100%;
+                height: 30vh;
+                object-fit: cover;
+                object-position: bottom;
+            }
+        }
+
+        .intro-buttons {
+            width: 100%;
+
+            .card-info {
+                margin: 0.5rem;
+            }
+        }
+    }
+
+    .separatorImg {
+        height: auto;
+
+        .testimonial {
+            padding: 2rem 0;
+            font-size: 1rem;
+        }
+    }
+
+    #contacto {
+        width: 100%;
+
+        p {
+            width: 90%;
+        }
+
+        .contacto-form {
+            form {
+                .form-group {
+                    flex-direction: column;
+                }
+            }
         }
     }
 }

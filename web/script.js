@@ -150,16 +150,18 @@ $("#form-desktop").submit(function (event) {
 
 
 // });
-let  windowHeight = $(window).height() ;
+let windowHeight = $(window).height();
 let windowWidth = $(window).width();
 console.log(windowHeight + " - " + windowWidth)
-$(window).resize(function() {
+$(window).resize(function () {
     // This will execute whenever the window is resized
-     windowHeight = $(window).height(); // New height
-     windowWidth =  $(window).width(); // New width
-   
-  });
+    windowHeight = $(window).height(); // New height
+    windowWidth = $(window).width(); // New width
 
- 
- 
+});
 
+let btnBurger = document.querySelector(".burger-menu");
+let MobileBody = document.querySelector(".mobile-body");
+btnBurger.addEventListener("click", function () {
+    MobileBody.classList.toggle("active");
+})

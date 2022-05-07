@@ -150,3 +150,16 @@ $("#form-desktop").submit(function (event) {
 
 
 // });
+let  windowHeight = $(window).height() ;
+let windowWidth = $(window).width();
+console.log(windowHeight + " - " + windowWidth)
+$(window).resize(function() {
+    // This will execute whenever the window is resized
+     windowHeight = $(window).height(); // New height
+     windowWidth =  $(window).width(); // New width
+   
+  });
+
+ 
+ 
+

@@ -14,99 +14,118 @@ $color-2:rgb(255, 255, 255);
 
 
 
-
-header {
-    background-image: url(assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg);
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
+nav {
+    padding: 1rem 0;
+    background-color: $color-1;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 40vh;
-    height: 80vh;
-
-    nav {
-        padding: 1rem 0;
-        background-color: $color-1;
-        height: 4rem;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
 
 
+    .logo {
+        margin-left: 1rem;
 
-        .logo {
-            margin-left: 1rem;
-
-            a {
-                display: flex;
-                width: 100px;
-                height: 60px;
-                background-color: rgba(0, 0, 0, 1);
-
-                img {
-                    object-fit: contain;
-                }
-            }
-        }
-
-        .menu {
+        a {
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            width: 40%;
+            width: 100px;
+            height: 60px;
 
 
-            li {
-                list-style: none;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 100%;
-
-
-                a {
-                    color: $color-2;
-                    text-decoration: none;
-                    font-size: 1.1rem;
-                    font-weight: bold;
-                    text-align: center;
-                    transition: all 0.3s ease-in-out;
-
-                    &:hover {
-                        color: #1D8AA1;
-                        text-decoration: underline;
-                    }
-                }
-            }
-        }
-
-        .social {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-end;
-            margin-right: 1rem;
-
-            li {
-                list-style: none;
-
-                a {
-                    margin: 0 1rem;
-
-                    i {
-                        font-size: 1.5rem;
-                        color: white;
-                    }
-                }
-
+            img {
+                object-fit: contain;
             }
         }
     }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+
+
+        li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+
+            a {
+                color: $color-2;
+                text-decoration: none;
+                font-size: 1.1rem;
+                font-weight: bold;
+                text-align: center;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    color: #1D8AA1;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 1rem;
+        width: 10%;
+
+        li {
+            list-style: none;
+            ;
+
+            a {
+
+                margin: 0 1rem;
+
+                i {
+                    font-size: 1.5rem;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+
+header {
+
+    // background-attachment: fixed;
+    // background-position: bottom;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: flex-start;
+    // align-items: center;
+
+    // min-height: 40vh;
+    // height: 80vh;
+    .carousel-item {
+        height: 100vh;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+
 
     .header-floating-elements {
         display: flex;

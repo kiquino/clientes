@@ -6,30 +6,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
-header {
-  background-image: url(assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg);
-  background-attachment: fixed;
-  background-position: bottom;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  min-height: 40vh;
-  height: 80vh;
-}
-
-header nav {
+nav {
   padding: 1rem 0;
   background-color: #a64f03;
-  height: 4rem;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,27 +24,30 @@ header nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
-header nav .logo {
+nav .logo {
   margin-left: 1rem;
 }
 
-header nav .logo a {
+nav .logo a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100px;
   height: 60px;
-  background-color: black;
 }
 
-header nav .logo a img {
+nav .logo a img {
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-header nav .menu {
+nav .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,7 +64,7 @@ header nav .menu {
   width: 40%;
 }
 
-header nav .menu li {
+nav .menu li {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,7 +78,7 @@ header nav .menu li {
   width: 100%;
 }
 
-header nav .menu li a {
+nav .menu li a {
   color: white;
   text-decoration: none;
   font-size: 1.1rem;
@@ -105,12 +88,12 @@ header nav .menu li a {
   transition: all 0.3s ease-in-out;
 }
 
-header nav .menu li a:hover {
+nav .menu li a:hover {
   color: #1D8AA1;
   text-decoration: underline;
 }
 
-header nav .social {
+nav .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,23 +101,37 @@ header nav .social {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-right: 1rem;
+  width: 10%;
 }
 
-header nav .social li {
+nav .social li {
   list-style: none;
 }
 
-header nav .social li a {
+nav .social li a {
   margin: 0 1rem;
 }
 
-header nav .social li a i {
+nav .social li a i {
   font-size: 1.5rem;
   color: white;
+}
+
+header .carousel-item {
+  height: 100vh;
+}
+
+header .carousel-item img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 header .header-floating-elements {

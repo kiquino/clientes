@@ -124,14 +124,49 @@
         </div>
     </article>
     <div class="intro-buttons">
-        <div class="card-info"><img
+        <div class="card-info" data-bs-toggle="modal" data-bs-target="#foto1"><img src="assets/modular-atras.jpeg"
+                alt="">
+        </div>
+        <div class="card-info" data-bs-toggle="modal" data-bs-target="#foto2"><img
                 src="assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg" alt="">
         </div>
-        <div class="card-info"><img
+        <div class="card-info" data-bs-toggle="modal" data-bs-target="#foto3"><img
                 src="assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg" alt="">
         </div>
-        <div class="card-info"><img
-                src="assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg" alt="">
+        <div class="modal fade" id="foto1" tabindex="-1" aria-labelledby="foto1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <img src="assets/outside-close.jpeg" alt="" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="foto2" tabindex="-1" aria-labelledby="foto2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <img src="assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg"
+                            alt="" />
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="foto3" tabindex="-1" aria-labelledby="foto3" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-body">
+                        <img src="assets/landscape-mountain-car-highway-mountain-range-transport-585283-pxhere.com.jpg"
+                            alt="" />
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -221,44 +256,48 @@
         <li><a href="https://www.instagram.com/atahualpacnc.ok/"><i class="fab fa-instagram"></i></a></li>
         <li></li>
     </ul>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aperiam deserunt neque cupiditate eligendi
-        alias molestias dolores. Quae, molestias odio fugiat iste atque nihil culpa odit voluptatem? Ullam, consequatur
-        exercitationem.</p>
+    <p>Ante cualquier consulta, no dude en escribirnos con su informacion de contacto.
+        <br>Para presupuesto, por favor escriba en la caja de comentarios el modelo por el cual desea ser asesorado.
+    </p>
     <div class="contacto-form">
-        <form>
+        <form id="form-desktop">
+            <div id="mensaje-result"></div>
             <div class="form-group">
                 <div class="form-item">
-                    <i class="fa-solid fa-user"></i><input type="text" class="form-control" id="nombre" placeholder=""
-                        required>
+                    <i class="fa-solid fa-user"></i><input type="text" class="form-control" id="nombre" name="nombre"
+                        placeholder="Nombre" required>
 
 
 
                 </div>
                 <div class="form-item">
                     <i class="fa-solid fa-at"></i>
-                    <input type="email" class="form-control" name="" id="" required>
+                    <input type="email" class="form-control" placeholder="Correo electrónico" name="email" id="email"
+                        required>
                 </div>
             </div>
-            <div class="form-group">
+            <div class="form-group opcionales">
                 <div class="form-item">
-                    <i class="fa-solid fa-phone"></i><input type="text" class="form-control" id="telefono"
-                        placeholder="">
+                    <i class="fa-solid fa-phone"></i><input type="text" class="form-control" name="tel" id="tel"
+                        placeholder="Teléfono (opcional)">
 
 
 
                 </div>
                 <div class="form-item">
                     <i class="fa-solid fa-earth-americas"></i>
-                    <input type="text" class="form-control" name="" id="" placeholder="país">
+                    <input type="text" class="form-control" name="pais" id="pais" placeholder="país(opcional)">
                 </div>
                 <div class="form-item">
                     <i class="fa-solid fa-location-dot"></i>
-                    <input type="text" class="form-control" name="" id="" placeholder="localidad">
+                    <input type="text" class="form-control" name="localidad" id="localidad"
+                        placeholder="localidad(opcional)">
                 </div>
             </div>
             <div class="form-group">
                 <div class="form-item">
-                    <i class="fa-solid fa-envelope"></i><textarea name="" id="" cols="30" rows="10"></textarea>
+                    <i class="fa-solid fa-envelope"></i><textarea name="mensaje" id="mensaje" cols="30"
+                        rows="10"></textarea>
                 </div>
             </div>
             <button type="submit">Enviar</button>
@@ -274,6 +313,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="script.js"></script>
 
 

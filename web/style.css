@@ -6,6 +6,14 @@
   font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
 nav {
   padding: 1rem 0;
   background-color: #a64f03;
@@ -86,6 +94,7 @@ nav .desktop-nav .menu {
       -ms-flex-pack: center;
           justify-content: center;
   width: 40%;
+  margin-bottom: 0;
 }
 
 nav .desktop-nav .menu li {
@@ -167,6 +176,48 @@ nav .mobile-nav {
   z-index: 999;
 }
 
+nav .mobile-nav ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-button {
+  width: 2px;
+  height: 2px;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-thumb {
+  background: white;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-thumb:hover {
+  background: #980101;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-thumb:active {
+  background: #850000;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+
+nav .mobile-nav ::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 nav .mobile-nav .header-mobile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,19 +257,20 @@ nav .mobile-nav .mobile-body {
   visibility: collapse;
   display: block;
   height: 0;
-  overflow: hidden;
+  overflow-y: scroll;
+  width: 100%;
   -webkit-transition: height 0.2s ease-in-out;
   transition: height 0.2s ease-in-out;
 }
 
 nav .mobile-nav .mobile-body.active {
-  height: 70vh;
+  height: 100vh;
   display: block;
   visibility: visible;
 }
 
 nav .mobile-nav .mobile-body .menu {
-  margin: 3rem 0;
+  margin: 3rem auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,6 +402,21 @@ header .header-floating-elements h1 {
   padding-bottom: 4rem;
   padding-top: 4rem;
   background-color: white;
+}
+
+#introduccion .modal-content {
+  max-width: 80vw;
+}
+
+#introduccion .modal-content .modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#introduccion .modal-content .modal-body img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #introduccion .intro-text {
@@ -731,6 +798,12 @@ header .header-floating-elements h1 {
 #contacto .contacto-form {
   margin-top: 3rem;
   width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contacto .contacto-form form {
@@ -743,6 +816,9 @@ header .header-floating-elements h1 {
           flex-direction: column;
   width: 80%;
   height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contacto .contacto-form form button {
@@ -752,7 +828,7 @@ header .header-floating-elements h1 {
   padding: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border: none;
   background-color: #a64f03;
   font-weight: bold;
@@ -765,6 +841,11 @@ header .header-floating-elements h1 {
 #contacto .contacto-form form button:hover {
   cursor: pointer;
   background-color: #1D8AA1;
+}
+
+#contacto .contacto-form form button {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #contacto .contacto-form form .form-group {
@@ -780,14 +861,34 @@ header .header-floating-elements h1 {
           justify-content: center;
 }
 
+#contacto .contacto-form form .form-group.opcionales {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contacto .contacto-form form .form-group.opcionales .form-item {
+  width: 100%;
+}
+
+#contacto .contacto-form form .form-group.opcionales .form-item i {
+  top: 0;
+}
+
 #contacto .contacto-form form .form-group .form-item {
   margin: 0 2rem;
   width: 300px;
+  position: relative;
 }
 
 #contacto .contacto-form form .form-group .form-item i {
   position: absolute;
   color: #a64f03;
+  top: 0.5rem;
   z-index: 2;
   font-size: 1.5rem;
 }
@@ -799,12 +900,12 @@ header .header-floating-elements h1 {
   margin-bottom: 1rem;
   border: none;
   border-bottom: 1px solid black;
-  font-size: 1.1rem;
+  font-size: 1rem;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   background-color: transparent;
   color: black;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 #contacto .contacto-form form .form-group .form-item input:focus {
@@ -830,6 +931,18 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
   min-height: 5rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .separatorImg {
+    height: auto;
+  }
+  .separatorImg .testimonial {
+    padding: 2rem 0;
+    font-size: 2rem;
+    width: 80%;
+    height: 50vh;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -889,6 +1002,7 @@ footer {
   .separatorImg .testimonial {
     padding: 2rem 0;
     font-size: 1rem;
+    width: 80%;
   }
   #contacto {
     width: 100%;

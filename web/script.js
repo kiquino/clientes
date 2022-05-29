@@ -5,10 +5,13 @@ $("#form-desktop").submit(function (event) {
     $("#email").prop('disabled', true);
     $("#mensaje").prop('disabled', true);
     $("#tel").prop('disabled', true);
+    $("#pais").prop('disabled', true);
+    $("#localidad").prop('disabled', true);
     if ($("#mensaje").val() != '') {
         $.post("mail.php", {
             nombre: $("#nombre").val(),
-
+            pais: $("#pais").val(),
+            localidad: $("#localidad").val(),
             mail: $("#email").val(),
             tel: $("#tel").val(),
             text: $("#mensaje").val()

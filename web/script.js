@@ -16,7 +16,7 @@ $("#form-desktop").submit(function (event) {
             tel: $("#tel").val(),
             text: $("#mensaje").val()
         }, function (data) {
-            console.log(data)
+            console.log(data);
             if (data) {
                 Swal.fire({
                     title: '¡Gracias!',

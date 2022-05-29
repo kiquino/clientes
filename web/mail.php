@@ -21,7 +21,7 @@ $mensaje .= "</p> \r\n <hr style='border:1px solid black'><br> Responder a: <a h
 
 
 
-if (mail('kiquino@gmail.com', $subject, $mensaje, $header)) {
+if (mail('no-reply@c2540596.ferozo.com', $subject, $mensaje, $header)) {
     echo true;
 } else {
     echo false;

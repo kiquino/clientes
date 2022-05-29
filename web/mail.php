@@ -6,6 +6,8 @@
 $nombre = $_POST['nombre'];
 
 $email = $_POST['mail'];
+$pais = $_POST['pais'];
+$localidad = $_POST['localidad'];
 $telefono = $_POST['tel'];
 $mensaje = "<hr style='border:1px solid black'> <br> <b>Nombre:</b><p>" . $nombre . "</p> <br><b>Teléfono:</b><p>" . $telefono . "</p> <br> <b>Email: </b> <p>" . $email . "</p> <br> <br> <b> Mensaje: </b>  <p>";
 $mensaje .= $_POST['text'];
